@@ -8,6 +8,7 @@ pub struct AltimeterProps {
     /// Air pressure calibration in mmHg.
     #[prop_or(1013.25)]
     pub pressure: f32,
+    /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
 }

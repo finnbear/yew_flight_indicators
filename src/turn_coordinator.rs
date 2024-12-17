@@ -5,6 +5,7 @@ use yew::{html, AttrValue, Component, Html, Properties};
 pub struct TurnCoordinatorProps {
     /// Rate of change of heading, in degrees of turn.
     pub turn: f32,
+    /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
 }

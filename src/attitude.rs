@@ -7,6 +7,7 @@ pub struct AttitudeIndicatorProps {
     pub pitch: f32,
     /// Aircraft roll in degrees.
     pub roll: f32,
+    /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
 }

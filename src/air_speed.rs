@@ -11,6 +11,7 @@ pub struct AirspeedIndicatorProps {
     /// may be rounded up so that the tick marks have labels that are nice round numbers.
     #[prop_or(160.0)]
     pub max_airspeed: f32,
+    /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
 }

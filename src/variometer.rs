@@ -5,6 +5,7 @@ use yew::{html, AttrValue, Component, Html, Properties};
 pub struct VariometerProps {
     /// Vertical speed in feet per minute.
     pub vertical_speed: f32,
+    /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
 }
