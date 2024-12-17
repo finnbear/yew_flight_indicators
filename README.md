@@ -1,7 +1,7 @@
 # yew_flight_indicators
 
 [![Documentation](https://docs.rs/yew_confetti/badge.svg)](https://docs.rs/yew_flight_indicators)
-[![crates.io](https://img.shields.io/crates/v/yew_confetti.svg)](https://crates.io/crates/yew_flight_indicators)
+[![crates.io](https://img.shields.io/crates/v/yew_flight_indicators.svg)](https://crates.io/crates/yew_flight_indicators)
 [![Build](https://github.com/finnbear/yew_flight_indicators/actions/workflows/build.yml/badge.svg)](https://github.com/finnbear/yew_flight_indicators/actions/workflows/build.yml) 
 [![Test Page](https://img.shields.io/badge/Test-page-green)](https://finnbear.github.io/yew_flight_indicators/)
 
