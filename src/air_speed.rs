@@ -50,9 +50,7 @@ pub fn airspeed(props: &AirspeedIndicatorProps) -> Html {
     );
 
     let speed = props.airspeed;
-    let max_speed = (props.max_airspeed as u32)
-        .saturating_sub(1)
-        .next_multiple_of(80) as f32;
+    let max_speed = (props.max_airspeed as u32).next_multiple_of(80) as f32;
 
     let mut speed_mechanics = include_str!("./svg_data_uri/speed_mechanics.svg").to_owned();
 
