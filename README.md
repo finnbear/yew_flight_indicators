@@ -60,6 +60,8 @@ Finn Bear has adapted the project by Corstian into a Yew library.
 
 ## License
 
-The SVG's are due to Sébastien Matton and are redistributed under the GPLv3 License. See LICENSE file for more information.
+The SVG's, with the following exception(s), are due to Sébastien Matton and are redistributed under the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text). See the LICENSE file for more information.
+
+The [turn coordinator SVG's](https://commons.wikimedia.org/wiki/File%3ATurn_coordinator.svg) are due to Mysid, and are redistributed under the [CC BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).
 
 To the extent that the remainder of the code is a new expression, it is licensed under either of [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) or [MIT license](http://opensource.org/licenses/MIT) at your option.
