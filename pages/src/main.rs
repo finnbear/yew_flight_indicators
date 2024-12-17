@@ -16,7 +16,7 @@ fn app() -> Html {
             />
             <Altimeter
                 altitude={50.0 * time}
-                pressure={1013.25 + 10.0 * (increment * 0.3).sin()}
+                pressure={1013.25 + 10.0 * (time * 0.3).sin()}
             />
             <AttitudeIndicator pitch={50.0 * (time * 0.25).sin()} roll={30.0 * (time * 0.5).sin()}/>
             <TurnCoordinator turn={30.0 * (time * 0.5).sin()}/>
