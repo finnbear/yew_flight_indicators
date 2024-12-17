@@ -2,7 +2,7 @@
 name = "yew_flight_indicators"
 version = "0.1.0"
 edition = "2021"
-exclude = ["/Makefile", "/svg/"]
+exclude = ["/Makefile", "/svg/", "/pages/", "/.vscode/", "/.github/"]
 publish = false
 
 [dependencies]

@@ -1,8 +1,8 @@
 use stylist::css;
-use yew::{html, AttrValue, Html, Properties};
+use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
-pub struct AltitudeIndicatorProps {
+pub struct AltimeterProps {
     /// Aircraft altitude in feet.
     pub altitude: f32,
     /// Air pressure calibration in mmHg.
@@ -12,7 +12,29 @@ pub struct AltitudeIndicatorProps {
     pub size: AttrValue,
 }
 
-pub fn altitude_indicator(props: &AltitudeIndicatorProps) -> Html {
+/// Indicates altitude. The pressure calibration is configurable.
+#[non_exhaustive]
+pub struct Altimeter;
+
+impl Component for Altimeter {
+    type Message = ();
+    type Properties = AltimeterProps;
+
+    fn create(_: &yew::Context<Self>) -> Self {
+        Self
+    }
+
+    fn changed(&mut self, ctx: &yew::Context<Self>, old_props: &Self::Properties) -> bool {
+        ctx.props() != old_props
+    }
+
+    fn view(&self, ctx: &yew::Context<Self>) -> Html {
+        altimeter(ctx.props())
+    }
+}
+
+/// Indicates altitude. The pressure calibration is configurable.
+pub fn altimeter(props: &AltimeterProps) -> Html {
     let box_style = css!(
         r#"
         width: 100%;

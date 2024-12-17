@@ -1,5 +1,5 @@
 use stylist::css;
-use yew::{html, AttrValue, Html, Properties};
+use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
 pub struct HeadingIndicatorProps {
@@ -9,6 +9,28 @@ pub struct HeadingIndicatorProps {
     pub size: AttrValue,
 }
 
+/// Indicates compass heading.
+#[non_exhaustive]
+pub struct HeadingIndicator;
+
+impl Component for HeadingIndicator {
+    type Message = ();
+    type Properties = HeadingIndicatorProps;
+
+    fn create(_: &yew::Context<Self>) -> Self {
+        Self
+    }
+
+    fn changed(&mut self, ctx: &yew::Context<Self>, old_props: &Self::Properties) -> bool {
+        ctx.props() != old_props
+    }
+
+    fn view(&self, ctx: &yew::Context<Self>) -> Html {
+        heading_indicator(ctx.props())
+    }
+}
+
+/// Indicates compass heading.
 pub fn heading_indicator(props: &HeadingIndicatorProps) -> Html {
     let box_style = css!(
         r#"
@@ -30,7 +52,7 @@ pub fn heading_indicator(props: &HeadingIndicatorProps) -> Html {
         >
             <div
                 class={box_style.clone()}
-                style={format!("transform: rotate({}deg)", -props.heading)}
+                style={format!("transform: rotate({}deg);", -props.heading)}
             >
                 <img src={heading_yaw} class={box_style.clone()} alt=""/>
             </div>

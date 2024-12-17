@@ -8,6 +8,7 @@ publish = false
 yew_flight_indicators = { path = ".." }
 yew = { version = "0.21", features = ["csr"] }
 web-sys = "0.3"
+yew-hooks = "0.3.3"
 
 [profile.release]
 codegen-units = 1

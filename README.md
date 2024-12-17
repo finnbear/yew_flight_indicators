@@ -5,12 +5,9 @@
 [![Build](https://github.com/finnbear/yew_flight_indicators/actions/workflows/build.yml/badge.svg)](https://github.com/finnbear/yew_flight_indicators/actions/workflows/build.yml) 
 [![Test Page](https://img.shields.io/badge/Test-page-green)](https://finnbear.github.io/yew_flight_indicators/)
 
-
 Like [react-flight-indicators](https://github.com/skyhop/react-flight-indicators) but for Yew.
 
-## WIP
-
-This crate is WIP. Only 4 of 6 indicators are supported. The remaining ones will be added shortly!
+![example](/example.png)
 
 ## Extra Features
 

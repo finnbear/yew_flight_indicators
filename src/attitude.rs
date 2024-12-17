@@ -1,5 +1,5 @@
 use stylist::css;
-use yew::{html, AttrValue, Html, Properties};
+use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
 pub struct AttitudeIndicatorProps {
@@ -11,6 +11,28 @@ pub struct AttitudeIndicatorProps {
     pub size: AttrValue,
 }
 
+/// Indicates pitch and roll.
+#[non_exhaustive]
+pub struct AttitudeIndicator;
+
+impl Component for AttitudeIndicator {
+    type Message = ();
+    type Properties = AttitudeIndicatorProps;
+
+    fn create(_: &yew::Context<Self>) -> Self {
+        Self
+    }
+
+    fn changed(&mut self, ctx: &yew::Context<Self>, old_props: &Self::Properties) -> bool {
+        ctx.props() != old_props
+    }
+
+    fn view(&self, ctx: &yew::Context<Self>) -> Html {
+        attitude_indicator(ctx.props())
+    }
+}
+
+/// Indicates pitch and roll.
 pub fn attitude_indicator(props: &AttitudeIndicatorProps) -> Html {
     let box_style = css!(
         r#"

@@ -1,21 +1,43 @@
 use std::array;
 use std::fmt::Write;
 use stylist::css;
-use yew::{html, AttrValue, Html, Properties};
+use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
-pub struct AirSpeedIndicatorProps {
-    /// Air speed, in knots.
-    pub air_speed: f32,
-    /// Max air speed, in knots, representing the end of the dial. The max air speed
+pub struct AirspeedIndicatorProps {
+    /// Airspeed, in knots.
+    pub airspeed: f32,
+    /// Max airspeed, in knots, representing the end of the dial. The max air speed
     /// may be rounded up so that the tick marks have labels that are nice round numbers.
     #[prop_or(160.0)]
-    pub max_air_speed: f32,
+    pub max_airspeed: f32,
     #[prop_or("16rem".into())]
     pub size: AttrValue,
 }
 
-pub fn air_speed_indicator(props: &AirSpeedIndicatorProps) -> Html {
+/// Indicates airspeed. The max airspeed is configurable.
+#[non_exhaustive]
+pub struct AirspeedIndicator;
+
+impl Component for AirspeedIndicator {
+    type Message = ();
+    type Properties = AirspeedIndicatorProps;
+
+    fn create(_: &yew::Context<Self>) -> Self {
+        Self
+    }
+
+    fn changed(&mut self, ctx: &yew::Context<Self>, old_props: &Self::Properties) -> bool {
+        ctx.props() != old_props
+    }
+
+    fn view(&self, ctx: &yew::Context<Self>) -> Html {
+        airspeed(ctx.props())
+    }
+}
+
+/// Indicates airspeed. The max airspeed is configurable.
+pub fn airspeed(props: &AirspeedIndicatorProps) -> Html {
     let box_style = css!(
         r#"
         width: 100%;
@@ -26,8 +48,8 @@ pub fn air_speed_indicator(props: &AirSpeedIndicatorProps) -> Html {
     "#
     );
 
-    let speed = props.air_speed;
-    let max_speed = (props.max_air_speed as u32).next_multiple_of(80) as f32;
+    let speed = props.airspeed;
+    let max_speed = (props.max_airspeed as u32).next_multiple_of(80) as f32;
 
     let mut speed_mechanics = include_str!("./svg_data_uri/speed_mechanics.svg").to_owned();
 

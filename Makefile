@@ -5,4 +5,8 @@ svg_data_uri:
 
 deps:
 	npm install svgo
-	go install github.com/bww/urlencode/cmd/urlenc@latest	
+	go install github.com/bww/urlencode/cmd/urlenc@latest
+
+fmt:
+	cargo fmt
+	cargo fmt --manifest-path pages/Cargo.toml
