@@ -15,17 +15,22 @@ This crate is WIP. Only 4 of 6 indicators are supported. The remaining ones will
 ## Extra Features
 
 - Configurable max air speed, instead of it being fixed to 160 knots.
-- SVG's are optimized in advance (see `Makefile`)
+- SVG's are optimized in advance (see `Makefile`).
 
-## Authors and License
------------
+## Removed Features
 
-Originally this project has been based on work by igneosaur, which could be found [on Bitbucket](https://bitbucket.org/igneosaur/attitude-indicator).
+- Showing a box around an indicator is not supported.
 
-Further work is done by Sébastien Matton (seb_matton@hotmail.com), whom developed the jQuery plugin as part of his master's for showing realtime flight information from a quadcopter.
+## Authors
+
+Originally, this project was based on work by igneosaur, which could be found [on Bitbucket](https://bitbucket.org/igneosaur/attitude-indicator).
+
+Further work was done by [Sébastien Matton](seb_matton@hotmail.com), whom developed the jQuery plugin as part of his master's for showing realtime flight information from a quadcopter.
 
 [Corstian Boerman](https://corstianboerman.com) has adapted the project by Sébastien for use with React.
 
-[Finn Bear](https://finnbear.com) has adapted that adaptation for use with Yew.
+[Finn Bear](https://finnbear.com) has adapted the project by Corstian for use with Yew.
 
-The project is published under GPLv3 License. See LICENSE file for more informations
+## License
+
+The project is published under the GPLv3 License. See LICENSE file for more information.

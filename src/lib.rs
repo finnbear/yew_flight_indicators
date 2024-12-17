@@ -3,7 +3,6 @@ mod altitude_indicator;
 mod attitude_indicator;
 mod heading_indicator;
 
-
 pub mod props {
     pub use crate::air_speed_indicator::AirSpeedIndicatorProps;
     pub use crate::altitude_indicator::AltitudeIndicatorProps;
