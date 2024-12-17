@@ -2,8 +2,11 @@
 name = "yew_flight_indicators"
 version = "0.1.0"
 edition = "2021"
+authors = ["Finn Bear", "Corstian Boerman", "Sébastien Matton", "igneosaur"] # see README.md
+license = "GPL-3.0"
+repository = "https://github.com/finnbear/yew_flight_indicators/"
+description = "Flight indicators for Yew websites"
 exclude = ["/Makefile", "/svg/", "/pages/", "/.vscode/", "/.github/"]
-publish = false
 
 [dependencies]
 stylist = { version = "0.13.0", features = ["yew"] }

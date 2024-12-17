@@ -9,6 +9,38 @@ Like [react-flight-indicators](https://github.com/skyhop/react-flight-indicators
 
 ![example](/example.png)
 
+## Usage
+
+```rust
+use yew_flight_indicators::component::*;
+
+yew::html!{
+    <div style="display: grid; grid-template-columns: repeat(3,1fr); width: min-content;">
+        <AirspeedIndicator
+            airspeed={80.0} // Knots.
+            max_airspeed={160.0} // Knots; default can be omitted.
+        />
+        <Altimeter
+            altitude={50.0} // Feet.
+            pressure={1013.25} // mmHg; default can be omitted.
+        />
+        <AttitudeIndicator
+            pitch={50.0} // Degrees.
+            roll={30.0} // Degrees.
+        />
+        <TurnCoordinator
+            turn={30.0} // Degrees.
+        />
+        <HeadingIndicator
+            heading={200.0} // Degrees.
+        />
+        <Variometer
+            vertical_speed={500.0} // Feet per minute.
+        />
+    </div>
+}
+```
+
 ## Extra Features
 
 - Configurable max air speed, instead of it being fixed to 160 knots.
