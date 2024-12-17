@@ -41,13 +41,11 @@ yew::html!{
 }
 ```
 
-## Extra Features
+## Changes
 
 - Configurable max air speed, instead of it being fixed to 160 knots.
 - SVG's are optimized in advance (see `Makefile`).
-
-## Removed Features
-
+- Remove extraneous `filter:url(#filter7320)` from `fi_tc_airplane.svg`.
 - Showing a box around an indicator is not supported.
 
 ## Authors

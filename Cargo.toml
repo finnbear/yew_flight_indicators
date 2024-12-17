@@ -1,6 +1,6 @@
 [package]
 name = "yew_flight_indicators"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Finn Bear", "Corstian Boerman", "Sébastien Matton", "igneosaur"] # see README.md
 license = "GPL-3.0"
