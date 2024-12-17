@@ -1,0 +1,10 @@
+[package]
+name = "yew_flight_indicators"
+version = "0.1.0"
+edition = "2021"
+exclude = ["/Makefile", "/svg/"]
+publish = false
+
+[dependencies]
+stylist = { version = "0.13.0", features = ["yew"] }
+yew = "0.21.0"

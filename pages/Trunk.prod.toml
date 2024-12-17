@@ -1,0 +1,4 @@
+[build]
+target = "index.html"
+release = true
+public_url = "/yew_flight_indicators/"
