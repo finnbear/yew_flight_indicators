@@ -666,12 +666,6 @@
        style="display:inline;fill:#000064;stroke-width:0"
        id="path5"
        sodipodi:nodetypes="cccc" />
-    <circle
-       style="display:inline;fill:#3e3e3e;stroke-width:0"
-       id="path6"
-       cx="500"
-       cy="880"
-       r="80" />
     <path
        id="rect5"
        style="display:inline;fill:#000004;stroke-width:0"
@@ -750,5 +744,11 @@
        cx="500"
        cy="500"
        r="450" />
+    <circle
+       style="opacity:1;display:inline;fill:#3e3e3e;stroke-width:0"
+       id="path6"
+       cx="500"
+       cy="880"
+       r="80" />
   </g>
 </svg>
