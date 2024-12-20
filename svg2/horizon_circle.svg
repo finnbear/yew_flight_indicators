@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="8"
-     inkscape:cx="54.25"
-     inkscape:cy="54.4375"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="41.7193"
+     inkscape:cy="37.918601"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
      inkscape:window-x="70"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g19"
+     inkscape:current-layer="layer1"
      showgrid="true">
     <inkscape:grid
        id="grid35"
@@ -515,17 +515,6 @@
     </g>
   </g>
   <g
-     inkscape:label="Circle"
-     id="layer1"
-     style="opacity:1">
-    <circle
-       style="fill:none;stroke:#000000;stroke-width:50;stroke-dasharray:none"
-       id="path1"
-       cx="500"
-       cy="500"
-       r="450" />
-  </g>
-  <g
      id="layer2"
      inkscape:label="Horizon Circle"
      style="display:inline">
@@ -669,62 +658,62 @@
        r="10" />
   </g>
   <g
-     id="layer3"
-     inkscape:label="Horizon Mechanics"
-     style="display:inline">
+     inkscape:label="Enclosure"
+     id="layer1"
+     style="opacity:1">
     <path
        d="M 843.64016,750 H 156.30959 C 236.01469,859.57776 364.50086,924.54306 500,924.9613 635.49913,924.54306 763.93505,859.57776 843.64016,750 Z"
-       style="fill:#000064;stroke-width:0"
+       style="display:inline;fill:#000064;stroke-width:0"
        id="path5"
        sodipodi:nodetypes="cccc" />
     <circle
-       style="fill:#3e3e3e;stroke-width:0"
+       style="display:inline;fill:#3e3e3e;stroke-width:0"
        id="path6"
        cx="500"
        cy="880"
        r="80" />
     <path
        id="rect5"
-       style="fill:#000004;stroke-width:0"
+       style="display:inline;fill:#000004;stroke-width:0"
        d="m 430,620 h 140 l 90,130 H 340 Z"
        sodipodi:nodetypes="ccccc" />
     <rect
-       style="fill:#3e3e3e;stroke-width:0"
+       style="display:inline;fill:#3e3e3e;stroke-width:0"
        id="rect6"
        width="40"
        height="50.000027"
        x="480"
        y="570" />
     <path
-       style="fill:#3e3e3e;stroke-width:0"
+       style="display:inline;fill:#3e3e3e;stroke-width:0"
        d="M 447.20703,510 A 53.849998,53.849998 0 0 0 500,553.84766 53.849998,53.849998 0 0 0 552.79297,510 H 539.60938 A 40.849998,40.849998 0 0 1 500,540.85938 40.849998,40.849998 0 0 1 460.50781,510 Z"
        id="path11" />
     <path
        id="rect6-7"
-       style="fill:#3e3e3e;stroke-width:0"
+       style="display:inline;fill:#3e3e3e;stroke-width:0"
        d="m 500,500 20,50.00003 h -40 z"
        sodipodi:nodetypes="cccc" />
     <rect
-       style="fill:#2a2a2a;stroke-width:0"
+       style="display:inline;fill:#2a2a2a;stroke-width:0"
        id="rect6-2"
        width="40"
        height="20.000042"
        x="480"
        y="550" />
     <circle
-       style="fill:#669900;stroke:#cc0000;stroke-width:0;stroke-dasharray:none"
+       style="display:inline;fill:#669900;stroke:#cc0000;stroke-width:0;stroke-dasharray:none"
        id="path12"
        cx="440"
        cy="690"
        r="15" />
     <circle
-       style="fill:#669900;stroke:#cc0000;stroke-width:0;stroke-dasharray:none"
+       style="display:inline;fill:#669900;stroke:#cc0000;stroke-width:0;stroke-dasharray:none"
        id="path12-3"
        cx="560"
        cy="690"
        r="15" />
     <rect
-       style="fill:#cc0000;stroke-width:0"
+       style="display:inline;fill:#cc0000;stroke-width:0"
        id="rect9-6-9"
        width="140.50781"
        height="20"
@@ -733,22 +722,33 @@
        inkscape:transform-center-x="241.04095"
        inkscape:transform-center-y="3.825264" />
     <rect
-       style="fill:#cc0000;stroke-width:0"
+       style="display:inline;fill:#cc0000;stroke-width:0"
        id="rect9-6"
        width="140.50781"
        height="20"
        x="320"
        y="490" />
     <circle
-       style="fill:#cc0000;stroke-width:0"
+       style="display:inline;fill:#cc0000;stroke-width:0"
        id="path7"
        cx="500"
        cy="500"
        r="15" />
     <path
        id="rect11"
-       style="fill:none;stroke:#cc0000;stroke-width:14.7281;stroke-dasharray:none"
+       style="display:inline;fill:none;stroke:#cc0000;stroke-width:14.7281;stroke-dasharray:none"
        d="M 499.99578,141.54797 520.9621,242.70845 H 479.02947 Z"
        sodipodi:nodetypes="cccc" />
+    <path
+       id="rect20"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.365962;stroke:#cc0000;stroke-width:0"
+       d="M 445,70 H 555 L 540,250 H 460 Z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:50;stroke-dasharray:none"
+       id="path1"
+       cx="500"
+       cy="500"
+       r="450" />
   </g>
 </svg>
