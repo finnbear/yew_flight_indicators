@@ -25,8 +25,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="8"
-     inkscape:cx="70.375"
-     inkscape:cy="50.0625"
+     inkscape:cx="68.25"
+     inkscape:cy="17.0625"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
      inkscape:window-x="70"
@@ -592,16 +592,14 @@
        transform="rotate(30)"
        inkscape:transform-center-x="-378.88558"
        inkscape:transform-center-y="-0.023450931" />
-    <rect
-       style="fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
+    <path
        id="rect72"
-       width="62.190483"
-       height="20"
-       x="90.041893"
-       y="-509.99652"
-       transform="rotate(90.00035)"
+       style="fill:#ffffff;stroke-width:0"
        inkscape:transform-center-x="-378.88558"
-       inkscape:transform-center-y="-0.023450931" />
+       inkscape:transform-center-y="-0.023450931"
+       transform="rotate(90.00035)"
+       d="m 69.996823,-520.00043 82.235557,10.00391 v 20 l -82.235312,9.99609 z"
+       sodipodi:nodetypes="ccccc" />
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
        id="rect57"
