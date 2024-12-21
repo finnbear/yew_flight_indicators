@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="41.7193"
-     inkscape:cy="37.918601"
+     inkscape:zoom="9.6105263"
+     inkscape:cx="48.072289"
+     inkscape:cy="46.563527"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
      inkscape:window-x="70"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g20"
      showgrid="true">
     <inkscape:grid
        id="grid35"
@@ -160,48 +160,53 @@
     </clipPath>
   </defs>
   <g
-     id="g20"
-     clip-path="url(#clipPath20)">
+     id="layer2"
+     inkscape:label="Roll"
+     style="display:inline">
     <g
-       inkscape:label="Clip"
-       id="g19">
-      <circle
-         style="opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
-         id="path16"
-         cx="500"
-         cy="500"
-         inkscape:label="Mask"
-         r="348" />
-    </g>
-    <g
-       id="layer4"
-       inkscape:label="Horizon Back"
-       style="opacity:1">
+       id="g20"
+       clip-path="url(#clipPath20)"
+       inkscape:label="Pitch"
+       style="display:inline">
+      <g
+         inkscape:label="Clip"
+         id="g19">
+        <circle
+           style="opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
+           id="path16"
+           cx="500"
+           cy="500"
+           inkscape:label="Mask"
+           r="348" />
+      </g>
       <rect
-         style="fill:#00a000;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#534437;stroke:#cc0000;stroke-width:0;fill-opacity:1"
          id="rect1"
          width="720"
          height="790"
          x="140"
-         y="510" />
+         y="510"
+         inkscape:label="Under Horizon" />
       <rect
-         style="fill:#c4f0fc;stroke:none;stroke-width:0;stroke-dasharray:none"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
          id="rect51-7"
          width="695.58374"
          height="20"
          x="152.20813"
          y="490"
          inkscape:transform-center-x="4237.7327"
-         inkscape:transform-center-y="0.023454587" />
+         inkscape:transform-center-y="0.023454587"
+         inkscape:label="Horizon" />
       <rect
-         style="fill:#2cd0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#5d96ab;stroke:#cc0000;stroke-width:0;fill-opacity:1"
          id="rect1-2"
          width="720"
          height="791.27234"
          x="140"
-         y="-301.27847" />
+         y="-301.27847"
+         inkscape:label="Over Horizon" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect8"
          width="75"
          height="12.5"
@@ -211,7 +216,7 @@
          inkscape:transform-center-y="-50.21538"
          transform="scale(-1)" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4"
          width="75"
          height="12.5"
@@ -220,7 +225,7 @@
          inkscape:transform-center-x="-0.01000749"
          inkscape:transform-center-y="50.215376" />
       <rect
-         style="opacity:1;fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect9"
          width="75"
          height="12.5"
@@ -230,7 +235,7 @@
          inkscape:transform-center-y="-149.96349"
          transform="scale(-1)" />
       <rect
-         style="opacity:1;fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4-6"
          width="75"
          height="12.5"
@@ -239,7 +244,7 @@
          inkscape:transform-center-x="-0.01000749"
          inkscape:transform-center-y="149.96348" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect10"
          width="150"
          height="12.5"
@@ -249,7 +254,7 @@
          inkscape:transform-center-y="-99.963488"
          transform="scale(-1)" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4-6-2"
          width="150"
          height="12.5"
@@ -258,7 +263,7 @@
          inkscape:transform-center-x="-0.01000749"
          inkscape:transform-center-y="99.963484" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect12"
          width="225"
          height="12.5"
@@ -268,7 +273,7 @@
          inkscape:transform-center-y="-199.96349"
          transform="scale(-1)" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4-6-2-7"
          width="225"
          height="12.5"
@@ -277,7 +282,7 @@
          inkscape:transform-center-x="-0.01000749"
          inkscape:transform-center-y="199.96348" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect13"
          width="300"
          height="12.5"
@@ -287,7 +292,7 @@
          inkscape:transform-center-y="-299.96349"
          transform="scale(-1)" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4-6-2-7-2"
          width="300"
          height="12.5"
@@ -296,7 +301,7 @@
          inkscape:transform-center-x="-0.01000749"
          inkscape:transform-center-y="299.96348" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect14"
          width="375"
          height="12.5"
@@ -306,7 +311,7 @@
          inkscape:transform-center-y="-398.95592"
          transform="scale(-1)" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4-6-2-7-2-9"
          width="375"
          height="12.5"
@@ -315,7 +320,7 @@
          inkscape:transform-center-x="-0.01000749"
          inkscape:transform-center-y="398.95592" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect15"
          width="75"
          height="12.5"
@@ -325,7 +330,7 @@
          inkscape:transform-center-y="-249.7116"
          transform="scale(-1)" />
       <rect
-         style="fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4-6-6"
          width="75"
          height="12.5"
@@ -334,7 +339,7 @@
          inkscape:transform-center-x="-0.01000749"
          inkscape:transform-center-y="249.71159" />
       <rect
-         style="opacity:1;fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect16"
          width="75"
          height="12.5"
@@ -344,7 +349,7 @@
          inkscape:transform-center-y="-349.4597"
          transform="scale(-1)" />
       <rect
-         style="opacity:1;fill:#c4f0fc;stroke:#cc0000;stroke-width:0"
+         style="display:inline;opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
          id="rect4-6-6-9"
          width="75"
          height="12.5"
@@ -356,180 +361,177 @@
          xml:space="preserve"
          transform="matrix(10,0,0,10,-496.83594,19.169922)"
          id="text4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan9"><tspan
+           id="tspan2"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan8">10</tspan></tspan></text>
+             id="tspan1">10</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-458.23242,119.16992)"
          id="text4-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan11"><tspan
+           id="tspan4"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan10">20</tspan></tspan></text>
+             id="tspan3">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-420.79102,219.16992)"
          id="text4-6-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan13"><tspan
+           id="tspan6"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan12">30</tspan></tspan></text>
+             id="tspan5">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-381.70957,318.16235)"
          id="text4-6-2-27"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan15"><tspan
+           id="tspan8"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan14">40</tspan></tspan></text>
+             id="tspan7">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-833.64054,318.16235)"
          id="text4-6-2-27-9"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-5);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-5);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan17"><tspan
+           id="tspan10"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan16">40</tspan></tspan></text>
+             id="tspan9">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-381.85811,-480.12773)"
          id="text4-6-2-27-4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-6);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-6);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan19"><tspan
+           id="tspan12"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan18">40</tspan></tspan></text>
+             id="tspan11">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-833.78906,-480.12773)"
          id="text4-6-2-27-9-9"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-5-2);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-5-2);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan21"><tspan
+           id="tspan14"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan20">40</tspan></tspan></text>
+             id="tspan13">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-795.79102,219.16992)"
          id="text4-6-2-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-8);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-8);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan23"><tspan
+           id="tspan16"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan22">30</tspan></tspan></text>
+             id="tspan15">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-420.81104,-380.32629)"
          id="text4-6-2-28"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-2);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-2);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan25"><tspan
+           id="tspan18"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan24">30</tspan></tspan></text>
+             id="tspan17">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-795.81104,-380.32629)"
          id="text4-6-2-2-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-8-9);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-8-9);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan27"><tspan
+           id="tspan20"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan26">30</tspan></tspan></text>
+             id="tspan19">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-758.23242,119.16992)"
          id="text4-6-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-0);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-0);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan29"><tspan
+           id="tspan22"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan28">20</tspan></tspan></text>
+             id="tspan21">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-458.25244,-280.68402)"
          id="text4-6-61"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-42);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-42);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan31"><tspan
+           id="tspan24"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan30">20</tspan></tspan></text>
+             id="tspan23">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-758.25244,-280.68402)"
          id="text4-6-6-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-0-0);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-0-0);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan33"><tspan
+           id="tspan26"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan32">20</tspan></tspan></text>
+             id="tspan25">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-721.83594,19.169922)"
          id="text4-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-3);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-3);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan35"><tspan
+           id="tspan28"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan34">10</tspan></tspan></text>
+             id="tspan27">10</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-496.85596,-180.83008)"
          id="text4-7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-7);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-7);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan37"><tspan
+           id="tspan30"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan36">10</tspan></tspan></text>
+             id="tspan29">10</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-721.85596,-180.83008)"
          id="text4-0-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-3-5);display:inline;fill:#ffffff"><tspan
+         style="display:inline;opacity:1;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-3-5);fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan39"><tspan
+           id="tspan32"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan38">10</tspan></tspan></text>
+             id="tspan31">10</tspan></tspan></text>
     </g>
-  </g>
-  <g
-     id="layer2"
-     inkscape:label="Horizon Circle"
-     style="display:inline">
     <path
        d="m 499.97487,924.9613 a 425,424.99912 0 0 0 425,-425 425,424.99912 0 0 0 0,-0.0391 h -77.05078 a 347.95321,347.9525 0 0 1 0,0.0391 347.95321,347.9525 0 0 1 -347.94922,347.94922 347.95321,347.9525 0 0 1 -347.94922,-347.94922 347.95321,347.9525 0 0 1 0,-0.0391 H 74.974873 a 425,424.99912 0 0 0 0,0.0391 425,424.99912 0 0 0 424.999997,425 z"
-       style="fill:#00b400;stroke-width:0"
+       style="fill:#534437;stroke-width:0;fill-opacity:1"
        id="path3"
        inkscape:transform-center-x="-0.012563431"
-       inkscape:transform-center-y="-212.4611" />
+       inkscape:transform-center-y="-212.4611"
+       inkscape:label="Under Horizon Circle" />
     <path
        d="m 500,75 a 425,424.99912 0 0 0 -425,425 425,424.99912 0 0 0 0,0.0391 h 77.05078 a 347.95321,347.9525 0 0 1 0,-0.0391 A 347.95321,347.9525 0 0 1 500,152.05078 347.95321,347.9525 0 0 1 847.94922,500 a 347.95321,347.9525 0 0 1 0,0.0391 H 925 A 425,424.99912 0 0 0 925,500 425,424.99912 0 0 0 500,75 Z"
-       style="fill:#7ce0fc;stroke-width:0"
+       style="fill:#5d96ab;stroke-width:0;fill-opacity:1"
        id="path2"
        inkscape:transform-center-x="-0.012563431"
-       inkscape:transform-center-y="-212.4611" />
+       inkscape:transform-center-y="-212.4611"
+       inkscape:label="Over Horizon Circle" />
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
        id="rect53"
@@ -602,16 +604,6 @@
        inkscape:transform-center-y="-0.023450931" />
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
-       id="rect56"
-       width="62.190483"
-       height="20"
-       x="-910.00311"
-       y="-509.99695"
-       transform="scale(-1)"
-       inkscape:transform-center-x="-378.88558"
-       inkscape:transform-center-y="-0.023450931" />
-    <rect
-       style="fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
        id="rect57"
        width="62.190483"
        height="20"
@@ -631,6 +623,17 @@
        inkscape:transform-center-x="0.038945042"
        inkscape:transform-center-y="-384.91244" />
     <rect
+       style="display:inline;fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
+       id="rect56"
+       width="62.190483"
+       height="20"
+       x="-910.00311"
+       y="-509.99695"
+       transform="scale(-1)"
+       inkscape:transform-center-x="-378.88558"
+       inkscape:transform-center-y="-0.023450931"
+       inkscape:label="Right Horizon" />
+    <rect
        style="fill:#ffffff;stroke:none;stroke-width:0;stroke-dasharray:none"
        id="rect51"
        width="62.190483"
@@ -638,15 +641,17 @@
        x="90.038422"
        y="490.04691"
        inkscape:transform-center-x="378.88558"
-       inkscape:transform-center-y="0.023454587" />
+       inkscape:transform-center-y="0.023454587"
+       inkscape:label="Left Horizon" />
     <circle
-       style="fill:#ffffff;stroke:#cc0000;stroke-width:0"
+       style="display:inline;fill:#ffffff;stroke:#cc0000;stroke-width:0"
        id="circle4"
        cx="770"
        cy="230"
        inkscape:transform-center-x="-269.97015"
        inkscape:transform-center-y="-270.04692"
-       r="10" />
+       r="10"
+       inkscape:label="Right Dot" />
     <circle
        style="fill:#ffffff;stroke:#cc0000;stroke-width:0"
        id="path4"
@@ -655,59 +660,54 @@
        inkscape:transform-center-x="270.04692"
        inkscape:transform-center-y="-269.97015"
        transform="rotate(-90)"
-       r="10" />
+       r="10"
+       inkscape:label="Left Dot" />
   </g>
   <g
      inkscape:label="Enclosure"
      id="layer1"
      style="opacity:1">
     <path
-       d="M 843.64016,750 H 156.30959 C 236.01469,859.57776 364.50086,924.54306 500,924.9613 635.49913,924.54306 763.93505,859.57776 843.64016,750 Z"
-       style="display:inline;fill:#000064;stroke-width:0"
-       id="path5"
-       sodipodi:nodetypes="cccc" />
-    <path
-       id="rect5"
-       style="display:inline;fill:#000004;stroke-width:0"
-       d="m 430,620 h 140 l 90,130 H 340 Z"
-       sodipodi:nodetypes="ccccc" />
+       d="M 430,620 340,750 H 156.30859 C 236.01345,859.57743 364.50127,924.5427 500,924.96094 635.49872,924.5427 763.92794,859.57743 843.63281,750 H 660 L 570,620 Z"
+       style="display:inline;fill:#262827;stroke-width:0;fill-opacity:1"
+       id="path8" />
     <rect
-       style="display:inline;fill:#3e3e3e;stroke-width:0"
+       style="display:inline;fill:#645445;stroke-width:0;fill-opacity:1"
        id="rect6"
        width="40"
        height="50.000027"
        x="480"
        y="570" />
     <path
-       style="display:inline;fill:#3e3e3e;stroke-width:0"
+       style="display:inline;fill:#645445;stroke-width:0;fill-opacity:1"
        d="M 447.20703,510 A 53.849998,53.849998 0 0 0 500,553.84766 53.849998,53.849998 0 0 0 552.79297,510 H 539.60938 A 40.849998,40.849998 0 0 1 500,540.85938 40.849998,40.849998 0 0 1 460.50781,510 Z"
        id="path11" />
     <path
        id="rect6-7"
-       style="display:inline;fill:#3e3e3e;stroke-width:0"
+       style="display:inline;fill:#645445;stroke-width:0;fill-opacity:1"
        d="m 500,500 20,50.00003 h -40 z"
        sodipodi:nodetypes="cccc" />
     <rect
-       style="display:inline;fill:#2a2a2a;stroke-width:0"
+       style="display:inline;fill:#483527;stroke-width:0;fill-opacity:1"
        id="rect6-2"
        width="40"
        height="20.000042"
        x="480"
        y="550" />
     <circle
-       style="display:inline;fill:#669900;stroke:#cc0000;stroke-width:0;stroke-dasharray:none"
+       style="display:inline;fill:#0f100f;stroke:#cc0000;stroke-width:0;stroke-dasharray:none;fill-opacity:1"
        id="path12"
        cx="440"
        cy="690"
        r="15" />
     <circle
-       style="display:inline;fill:#669900;stroke:#cc0000;stroke-width:0;stroke-dasharray:none"
+       style="display:inline;fill:#0f100f;stroke:#cc0000;stroke-width:0;stroke-dasharray:none;fill-opacity:1"
        id="path12-3"
        cx="560"
        cy="690"
        r="15" />
     <rect
-       style="display:inline;fill:#cc0000;stroke-width:0"
+       style="display:inline;fill:#f9704f;stroke-width:0;fill-opacity:1"
        id="rect9-6-9"
        width="140.50781"
        height="20"
@@ -716,14 +716,14 @@
        inkscape:transform-center-x="241.04095"
        inkscape:transform-center-y="3.825264" />
     <rect
-       style="display:inline;fill:#cc0000;stroke-width:0"
+       style="display:inline;fill:#f9704f;stroke-width:0;fill-opacity:1"
        id="rect9-6"
        width="140.50781"
        height="20"
        x="320"
        y="490" />
     <circle
-       style="display:inline;fill:#cc0000;stroke-width:0"
+       style="display:inline;fill:#f9704f;stroke-width:0;fill-opacity:1"
        id="path7"
        cx="500"
        cy="500"
@@ -739,16 +739,18 @@
        d="M 445,70 H 555 L 540,250 H 460 Z"
        sodipodi:nodetypes="ccccc" />
     <circle
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:50;stroke-dasharray:none"
+       style="opacity:1;fill:none;stroke:#2b2d2b;stroke-width:50;stroke-dasharray:none;stroke-opacity:1"
        id="path1"
        cx="500"
        cy="500"
-       r="450" />
+       r="450"
+       inkscape:label="Ring" />
     <circle
-       style="opacity:1;display:inline;fill:#3e3e3e;stroke-width:0"
+       style="display:inline;opacity:1;fill:#323939;stroke:#505453;stroke-width:5;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
        id="path6"
        cx="500"
        cy="880"
-       r="80" />
+       r="75"
+       inkscape:label="Knob" />
   </g>
 </svg>
