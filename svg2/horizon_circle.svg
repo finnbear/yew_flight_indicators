@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="32"
-     inkscape:cx="51.6875"
-     inkscape:cy="12.578125"
+     inkscape:zoom="16"
+     inkscape:cx="49.8125"
+     inkscape:cy="54.03125"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
      inkscape:window-x="70"
@@ -665,6 +665,13 @@
      inkscape:label="Enclosure"
      id="layer1"
      style="opacity:1">
+    <rect
+       style="opacity:1;display:inline;fill:#645445;stroke-width:0;fill-opacity:1"
+       id="rect6"
+       width="40"
+       height="50.000027"
+       x="480"
+       y="570" />
     <path
        d="m 430,620 -90,130 -186.45535,0 C 233.24951,859.57743 364.50127,926.81861 500,927.23685 635.49872,926.81861 766.75051,859.57743 846.45538,750 L 660,750 570,620 Z"
        style="display:inline;fill:#262827;fill-opacity:1;stroke:#1a1b1b;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
@@ -682,13 +689,6 @@
        style="opacity:1;fill:#2b2d2b;fill-opacity:1;stroke:#1c1c1c;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
        id="path10"
        inkscape:label="Ring" />
-    <rect
-       style="display:inline;fill:#645445;stroke-width:0;fill-opacity:1"
-       id="rect6"
-       width="40"
-       height="50.000027"
-       x="480"
-       y="570" />
     <path
        style="display:inline;fill:#645445;fill-opacity:1;stroke-width:0"
        d="M 447.20703,510 C 452.00628,535.38863 474.16181,553.7901 500,553.84766 525.83819,553.7901 547.99372,535.38863 552.79297,510 L 540,500 c 0,20 -21.2872,40.85934 -40,40.85938 C 481.3309,540.80576 460.50781,520 460.50781,500 Z"
@@ -744,7 +744,7 @@
        r="15" />
     <path
        id="rect11"
-       style="display:inline;fill:none;stroke:#cc0000;stroke-width:14.7281;stroke-dasharray:none"
+       style="display:inline;fill:none;stroke:#f9704f;stroke-width:14.7281;stroke-dasharray:none;stroke-opacity:1"
        d="M 499.99578,141.54797 520.9621,242.70845 H 479.02947 Z"
        sodipodi:nodetypes="cccc" />
     <circle
