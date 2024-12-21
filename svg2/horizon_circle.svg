@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="8"
-     inkscape:cx="68.25"
-     inkscape:cy="17.0625"
+     inkscape:zoom="32"
+     inkscape:cx="51.6875"
+     inkscape:cy="12.578125"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
      inkscape:window-x="70"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1"
+     inkscape:current-layer="layer1"
      showgrid="true">
     <inkscape:grid
        id="grid35"
@@ -672,6 +672,12 @@
        inkscape:label="Base"
        sodipodi:nodetypes="cccccccc" />
     <path
+       id="rect20"
+       style="opacity:1;display:inline;fill:#ffffff;fill-opacity:0.11300161;stroke:#ffffff;stroke-width:3;stroke-opacity:0.14606516;stroke-dasharray:none"
+       d="M 445,70 H 555 L 540,250 H 460 Z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:label="Transparent Connector" />
+    <path
        d="M 500.00002,22.49999 A 477.50002,477.50002 0 0 0 22.500005,500.00001 477.50002,477.50002 0 0 0 500.00002,977.50003 a 477.50002,477.50002 0 0 0 477.5,-477.50002 477.50002,477.50002 0 0 0 -477.5,-477.50002 z m 0,50.26316 A 427.23686,427.23686 0 0 1 927.23686,500.00001 427.23686,427.23686 0 0 1 500.00002,927.23685 427.23686,427.23686 0 0 1 72.763165,500.00001 427.23686,427.23686 0 0 1 500.00002,72.76315 Z"
        style="opacity:1;fill:#2b2d2b;fill-opacity:1;stroke:#1c1c1c;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
        id="path10"
@@ -741,12 +747,6 @@
        style="display:inline;fill:none;stroke:#cc0000;stroke-width:14.7281;stroke-dasharray:none"
        d="M 499.99578,141.54797 520.9621,242.70845 H 479.02947 Z"
        sodipodi:nodetypes="cccc" />
-    <path
-       id="rect20"
-       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.11300161;stroke:#ffffff;stroke-width:3;stroke-opacity:0.14606516;stroke-dasharray:none"
-       d="M 445,70 H 555 L 540,250 H 460 Z"
-       sodipodi:nodetypes="ccccc"
-       inkscape:label="Transparent Connector" />
     <circle
        style="display:inline;opacity:1;fill:#323939;stroke:#505453;stroke-width:5;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
        id="path6"
