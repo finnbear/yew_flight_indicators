@@ -22,6 +22,10 @@ fn app() -> Html {
                 pitch={50.0 * (time * 0.25).sin()}
                 roll={30.0 * (time * 0.5).sin()}
             />
+            <AttitudeIndicator2
+                pitch={50.0 * (time * 0.25).sin()}
+                roll={30.0 * (time * 0.5).sin()}
+            />
             <TurnCoordinator turn={30.0 * (time * 0.5).sin()}/>
             <HeadingIndicator heading={time * 10.0}/>
             <Variometer vertical_speed={2000.0 * (time * 0.5).sin()}/>
