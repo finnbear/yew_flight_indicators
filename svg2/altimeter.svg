@@ -25,8 +25,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="11.313709"
-     inkscape:cx="74.688154"
-     inkscape:cy="49.45328"
+     inkscape:cx="94.531338"
+     inkscape:cy="54.579805"
      inkscape:window-width="1234"
      inkscape:window-height="1136"
      inkscape:window-x="686"
@@ -52,6 +52,12 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67" />
     <rect
        x="36"
        y="32"
@@ -316,6 +322,60 @@
          in2="comp1"
          id="feComposite20" />
     </filter>
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-6" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-6-1" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-68" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-68-9" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-6-1-1" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-6-1-1-6" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-68-9-4" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-6-1-1-6-7" />
+    <rect
+       x="75"
+       y="46"
+       width="11"
+       height="5"
+       id="rect67-68-9-4-7" />
   </defs>
   <g
      inkscape:label="Outside"
@@ -804,9 +864,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan2"><tspan
+         id="tspan27"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan1">0</tspan></tspan></text>
+           id="tspan3">0</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8"
@@ -816,9 +876,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan5"><tspan
+         id="tspan29"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan3">1</tspan></tspan></text>
+           id="tspan28">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-2"
@@ -828,9 +888,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan7"><tspan
+         id="tspan31"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan6">2</tspan></tspan></text>
+           id="tspan30">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text63"
@@ -840,9 +900,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan9"><tspan
+         id="tspan33"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan8">3</tspan></tspan></text>
+           id="tspan32">3</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text65"
@@ -852,9 +912,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan11"><tspan
+         id="tspan35"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan10">4</tspan></tspan></text>
+           id="tspan34">4</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text67"
@@ -864,9 +924,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan13"><tspan
+         id="tspan37"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan12">5</tspan></tspan></text>
+           id="tspan36">5</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text69"
@@ -876,9 +936,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan15"><tspan
+         id="tspan39"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan14">6</tspan></tspan></text>
+           id="tspan38">6</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text71"
@@ -888,9 +948,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan17"><tspan
+         id="tspan41"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan16">7</tspan></tspan></text>
+           id="tspan40">7</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text73"
@@ -900,9 +960,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan19"><tspan
+         id="tspan43"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan18">8</tspan></tspan></text>
+           id="tspan42">8</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-2-8"
@@ -912,9 +972,9 @@
        y="0"><tspan
          x="37.258301"
          y="37.308594"
-         id="tspan21"><tspan
+         id="tspan45"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan20">9</tspan></tspan></text>
+           id="tspan44">9</tspan></tspan></text>
     <path
        d="M 56.066406,62.947266 55.0625,60.833984 A 12,12 0 0 1 54.478516,61.0625 Z"
        style="fill:#ffffff;stroke-width:0"
@@ -1004,7 +1064,7 @@
        transform="translate(3.1591797)"><tspan
          x="36"
          y="35.539062"
-         id="tspan22">ALTIMETER</tspan></text>
+         id="tspan46">ALTIMETER</tspan></text>
     <text
        xml:space="preserve"
        id="text62-7"
@@ -1012,10 +1072,10 @@
        transform="translate(-6.1272939,11.926908)"><tspan
          x="36"
          y="34.359378"
-         id="tspan23">CALIBRATED </tspan><tspan
+         id="tspan47">CALIBRATED </tspan><tspan
          x="36"
          y="37.692714"
-         id="tspan24">TO 20,000FT</tspan></text>
+         id="tspan48">TO 20,000FT</tspan></text>
   </g>
   <g
      id="layer2"
@@ -1059,4 +1119,114 @@
        cy="50"
        r="0.40000001" />
   </g>
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0;opacity:0.5"
+     id="path65"
+     cx="50"
+     cy="50"
+     r="36" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0;opacity:0.5"
+     id="path66"
+     cx="50"
+     cy="50"
+     r="24" />
+  <path
+     id="rect66"
+     style="display:none;opacity:0.524;fill:#ffffff;stroke-width:0"
+     d="M 90,39 V 61 L 50,50 Z"
+     sodipodi:nodetypes="cccc" />
+  <text
+     xml:space="preserve"
+     id="text66"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67);display:inline"
+     transform="translate(-0.72844696,1.8786311)"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan49">30.0</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-2"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-68);display:inline"
+     transform="translate(-1.109364,5.6943735)"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan50">30.1</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-2-0"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-68-9);display:inline"
+     transform="translate(-1.536662,10.278939)"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan51">30.2</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-2-0-0"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-68-9-4);display:inline"
+     transform="translate(-3.86084,14.863505)"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan52">30.3</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-2-0-0-7"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-68-9-4-7);display:inline"
+     transform="translate(-5.5859375,19.404297)"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan53">30.4</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-8"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-6);display:inline"
+     transform="translate(-0.72844696,-1.9371113)"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan54">29.9</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-8-9"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-6-1);display:inline"
+     transform="translate(-1.109364,-5.943635)"
+     inkscape:transform-center-x="-1.7890739"
+     inkscape:transform-center-y="1.3820744"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan55">29.8</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-8-9-2"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-6-1-1);display:inline"
+     transform="translate(-3.9028322,-9.9501587)"
+     inkscape:transform-center-x="-1.7890739"
+     inkscape:transform-center-y="1.3820744"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan56">29.7</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-8-9-2-0"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-6-1-1-6);display:inline"
+     transform="translate(-5.9287109,-13.956682)"
+     inkscape:transform-center-x="-1.7890739"
+     inkscape:transform-center-y="1.3820744"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan57">29.6</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text66-8-9-2-0-1"
+     style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect67-6-1-1-6-7);display:inline"
+     transform="translate(-9.1901918,-17.581643)"
+     inkscape:transform-center-x="-1.7890739"
+     inkscape:transform-center-y="1.3820744"><tspan
+       x="75"
+       y="49.539062"
+       id="tspan58">29.5</tspan></text>
+  <path
+     id="rect68"
+     style="fill:#ffffff;stroke-width:0"
+     d="M 86,49.996237 89.370621,49.25 v 1.5 z"
+     sodipodi:nodetypes="cccc" />
 </svg>
