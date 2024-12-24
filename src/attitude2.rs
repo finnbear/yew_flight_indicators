@@ -47,9 +47,9 @@ pub fn attitude_indicator2(props: &AttitudeIndicatorProps2) -> Html {
 
     let altitude_indicator_outside = include_str!("./svg_data_uri/attitude_indicator_outside.svg");
     let altitude_indicator_roll = include_str!("./svg_data_uri/attitude_indicator_roll.svg");
-    let altitude_indicator_pitch = include_str!("./svg_data_uri/attitude_indicator_pitch.svg");
-    let altitude_indicator_pitch_mask = include_str!("./svg_data_uri/attitude_indicator_pitch_mask.svg");
 
+    let pitch_percent = props.pitch.clamp(-40.0, 40.0);
+    let attitude_indicator_pitch = Html::from_html_unchecked(include_str!("./svg_data_uri/attitude_indicator_pitch.svg.raw").into());
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
@@ -60,9 +60,10 @@ pub fn attitude_indicator2(props: &AttitudeIndicatorProps2) -> Html {
             >
                 <div
                     class={box_style.clone()}
-                    style={format!("top: {}%;", props.pitch.clamp(-30.0, 30.0) * 0.7)}
+                    style={format!("top: {}%; clip-path: circle(36% at 50% {}%);", pitch_percent, 50.0 - pitch_percent)}
                 >
-                    <img src={altitude_indicator_pitch} class={box_style.clone()} alt=""/>
+                    {attitude_indicator_pitch}
+                    //<embed src={altitude_indicator_pitch} style="overflow: visible;" class={box_style.clone()} alt=""/>
                     //<img src={altitude_indicator_pitch_mask} class={box_style.clone()} alt=""/>
                 </div>
                 <img src={altitude_indicator_roll} class={box_style.clone()} alt=""/>
