@@ -11,6 +11,12 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1">
+    <rect
+       x="40"
+       y="70"
+       width="18.757807"
+       height="5.1222634"
+       id="rect2" />
     <filter
        style="color-interpolation-filters:sRGB"
        id="filter28"
@@ -130,5 +136,13 @@
        cx="500"
        cy="880"
        r="75" />
+    <text
+       xml:space="preserve"
+       transform="matrix(10,0,0,10,15.566406,22.395796)"
+       id="text1"
+       style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#ffffff"><tspan
+         x="40"
+         y="73.539062"
+         id="tspan1">VACUUM</tspan></text>
   </g>
 </svg>
