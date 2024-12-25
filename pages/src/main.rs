@@ -19,8 +19,8 @@ fn app() -> Html {
                 pressure={1013.25 + 10.0 * (time * 0.3).sin()}
             />
             <Altimeter2
-                altitude={50.0 * time}
-                pressure={1013.25 + 10.0 * (time * 0.3).sin()}
+                altitude={10000.0 + 1500.0 * time}
+                pressure={29.92 + 0.52 * (time * 0.3).sin()}
             />
             <AttitudeIndicator
                 pitch={50.0 * (time * 0.25).sin()}

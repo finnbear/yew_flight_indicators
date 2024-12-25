@@ -63,14 +63,10 @@ pub fn attitude_indicator2(props: &AttitudeIndicatorProps2) -> Html {
                     style={format!("top: {}%; clip-path: circle(36% at 50% {}%);", pitch_percent, 50.0 - pitch_percent)}
                 >
                     {attitude_indicator_pitch}
-                    //<embed src={altitude_indicator_pitch} style="overflow: visible;" class={box_style.clone()} alt=""/>
-                    //<img src={altitude_indicator_pitch_mask} class={box_style.clone()} alt=""/>
                 </div>
                 <img src={altitude_indicator_roll} class={box_style.clone()} alt=""/>
             </div>
-            <div class={box_style.clone()}>
-                <img src={altitude_indicator_outside} class={box_style.clone()} alt=""/>
-            </div>
+            <img src={altitude_indicator_outside} class={box_style.clone()} alt=""/>
         </div>
     }
 }
