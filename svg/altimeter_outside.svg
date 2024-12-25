@@ -146,6 +146,18 @@
          in2="comp1"
          id="feComposite108" />
     </filter>
+    <rect
+       x="36"
+       y="32"
+       width="6.3333378"
+       height="7.158133"
+       id="rect62-0-2-7" />
+    <rect
+       x="36"
+       y="32"
+       width="6.3333378"
+       height="7.158133"
+       id="rect62-0-2-7-2" />
   </defs>
   <g
      id="layer1">
@@ -539,122 +551,102 @@
        xml:space="preserve"
        id="text62-3"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0);display:inline;fill:#ffffff"
-       transform="translate(10.834687,-10.910832)"
+       transform="translate(12.092773,-10.910832)"
        x="1.0078125"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan2"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan1">0</tspan></tspan></text>
+         id="tspan4">0</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2);display:inline;fill:#ffffff"
-       transform="translate(25.79228,-7.1817192)"
+       transform="translate(27.131271,-6.011308)"
        x="2.3100586"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan4"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan3">1</tspan></tspan></text>
+         id="tspan5">1</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text62-3-8-3"
+       style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-7);display:inline;fill:#ffffff"
+       transform="translate(-3.2161331,-6.2187212)"
+       x="2.3100586"
+       y="0"><tspan
+         x="36"
+         y="37.308594"
+         id="tspan6">9</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text62-3-8-3-1"
+       style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-7-2);display:inline;fill:#ffffff"
+       transform="translate(-13.145496,6.5103459)"
+       x="2.3100586"
+       y="0"><tspan
+         x="36"
+         y="37.308594"
+         id="tspan7">8</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-2"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6);display:inline;fill:#ffffff"
-       transform="translate(36.072028,4.2527377)"
+       transform="translate(37.230527,4.5718625)"
        x="2.3964844"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan6"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan5">2</tspan></tspan></text>
+         id="tspan8">2</tspan></text>
     <text
        xml:space="preserve"
        id="text63"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6-4);display:inline;fill:#ffffff"
-       transform="translate(36.404785,26.144531)"
+       transform="translate(37.161679,25.221377)"
        x="2.4477539"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan8"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan7">3</tspan></tspan></text>
+         id="tspan9">3</tspan></text>
     <text
        xml:space="preserve"
        id="text65"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6-4);display:inline;fill:#ffffff"
-       transform="translate(26.583395,35.916486)"
+       transform="translate(27.19129,36.120327)"
        x="2.6015625"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan10"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan9">4</tspan></tspan></text>
+         id="tspan10">4</tspan></text>
     <text
        xml:space="preserve"
        id="text67"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6-4);display:inline;fill:#ffffff"
-       transform="translate(11.024722,41.213441)"
+       transform="translate(12.12538,40.834339)"
        x="2.4228516"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan12"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan11">5</tspan></tspan></text>
+         id="tspan11">5</tspan></text>
     <text
        xml:space="preserve"
        id="text69"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6-4);display:inline;fill:#ffffff"
-       transform="translate(-4.4262748,36.211192)"
+       transform="translate(-3.5441852,36.046918)"
        x="2.5180664"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan14"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan13">6</tspan></tspan></text>
+         id="tspan12">6</tspan></text>
     <text
        xml:space="preserve"
        id="text71"
        style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6-4);display:inline;fill:#ffffff"
-       transform="translate(-15.298599,23.70806)"
+       transform="translate(-13.339335,23.635083)"
        x="2.4140625"
        y="0"><tspan
-         x="37.258301"
+         x="36"
          y="37.308594"
-         id="tspan16"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan15">7</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       id="text73"
-       style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6-4);display:inline;fill:#ffffff"
-       transform="translate(-14.791496,6.1572305)"
-       x="2.5078125"
-       y="0"><tspan
-         x="37.258301"
-         y="37.308594"
-         id="tspan18"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan17">8</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       id="text62-3-8-2-8"
-       style="font-size:6px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect62-0-2-6-4);display:inline;fill:#ffffff"
-       transform="translate(-4.2148982,-6.4844613)"
-       x="2.5166016"
-       y="0"><tspan
-         x="37.258301"
-         y="37.308594"
-         id="tspan20"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan19">9</tspan></tspan></text>
+         id="tspan13">7</tspan></text>
     <path
        d="M 56.066406,62.947266 55.0625,60.833984 A 12,12 0 0 1 54.478516,61.0625 Z"
        style="fill:#ffffff;stroke-width:0"

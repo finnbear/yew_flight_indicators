@@ -1,7 +1,7 @@
 svg_data_uri:
 	rm src/svg_data_uri/*
 	# TODO: --datauri unenc once https://github.com/svg/svgo/pull/2053 merges
-	svgo --input svg/*.svg -p 1 --multipass --pretty --output src/svg_data_uri/
+	svgo --input svg/*.svg -p 3 --multipass --pretty --output src/svg_data_uri/
 	cat src/svg_data_uri/attitude_indicator_pitch.svg | sed 's/width=\"100\"\ height=\"100\"/width=\"100%\"\ height=\"100%\"\ overflow=\"visible\"\ style=\"overflow: visible !important;\"/g' > src/svg_data_uri/attitude_indicator_pitch.svg.raw
 	rm src/svg_data_uri/attitude_indicator_pitch.svg
 	$(foreach file, $(wildcard src/svg_data_uri/*.svg), printf "data:image/svg+xml,%s" `cat $(file) | urlenc enc | sed 's/+/%20/g'` > $(file);)
