@@ -4,7 +4,7 @@ use yew_hooks::use_raf;
 
 #[function_component(App)]
 fn app() -> Html {
-    const SECONDS: u32 = 60;
+    const SECONDS: u32 = 128;
     let time = use_raf(SECONDS * 1000, 0) as f32 * SECONDS as f32;
 
     html! {<>
@@ -19,7 +19,7 @@ fn app() -> Html {
                 pressure={1013.25 + 10.0 * (time * 0.3).sin()}
             />
             <Altimeter2
-                altitude={10000.0 + 1500.0 * time}
+                altitude={10000.0 + 5000.0 * (time * 0.4).sin()}
                 pressure={29.92 + 0.52 * (time * 0.3).sin()}
             />
             <AttitudeIndicator

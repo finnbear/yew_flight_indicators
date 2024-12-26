@@ -28,8 +28,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="4"
-     inkscape:cx="25.875"
-     inkscape:cy="53.125"
+     inkscape:cx="21.625"
+     inkscape:cy="55.375"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
      inkscape:window-x="70"
@@ -1681,7 +1681,7 @@
   <g
      id="layer2"
      inkscape:label="Small Hand"
-     style="display:none;filter:url(#filter11)">
+     style="display:inline;filter:url(#filter11)">
     <path
        d="m 40,46.5 c -1.932993,0 -3.5,1.567007 -3.5,3.5 0,1.932993 1.567007,3.5 3.5,3.5 0.914439,-0.0011 1.792142,-0.360025 2.445312,-1 H 49 L 47,50 49,47.5 H 42.447266 C 41.793612,46.859552 40.915115,46.500582 40,46.5 Z"
        style="fill:#2b2f32;fill-opacity:1;stroke-width:0"
@@ -1696,7 +1696,7 @@
   <g
      id="layer3"
      inkscape:label="Large Hand"
-     style="display:none;filter:url(#filter13)">
+     style="display:inline;filter:url(#filter13)">
     <path
        id="rect1"
        style="fill:#fefbf2;fill-opacity:1;stroke-width:0"
