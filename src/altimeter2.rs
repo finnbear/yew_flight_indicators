@@ -46,11 +46,11 @@ pub fn altimeter2(props: &AltimeterProps2) -> Html {
     "#
     );
 
-    let altimeter_pressure =  include_str!("./svg_data_uri/altimeter_pressure.svg");
-    let altimeter_outside =  include_str!("./svg_data_uri/altimeter_outside.svg");
-    let altimeter_face =  include_str!("./svg_data_uri/altimeter_face.svg");
-    let altimeter_small_hand =  include_str!("./svg_data_uri/altimeter_small_hand.svg");
-    let altimeter_large_hand =  include_str!("./svg_data_uri/altimeter_large_hand.svg");
+    let altimeter_pressure = include_str!("./svg_data_uri/altimeter_pressure.svg");
+    let altimeter_outside = include_str!("./svg_data_uri/altimeter_outside.svg");
+    let altimeter_face = include_str!("./svg_data_uri/altimeter_face.svg");
+    let altimeter_small_hand = include_str!("./svg_data_uri/altimeter_small_hand.svg");
+    let altimeter_large_hand = include_str!("./svg_data_uri/altimeter_large_hand.svg");
 
     let needle = (props.altitude as u32 % 1000) as f32 * 360.0 / 1000.0;
     let small_hand = -90.0 + props.altitude as f32 / 10000.0 * 360.0;

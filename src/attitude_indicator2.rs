@@ -49,7 +49,9 @@ pub fn attitude_indicator2(props: &AttitudeIndicatorProps2) -> Html {
     let altitude_indicator_roll = include_str!("./svg_data_uri/attitude_indicator_roll.svg");
 
     let pitch_percent = props.pitch.clamp(-40.0, 40.0);
-    let attitude_indicator_pitch = Html::from_html_unchecked(include_str!("./svg_data_uri/attitude_indicator_pitch.svg.raw").into());
+    let attitude_indicator_pitch = Html::from_html_unchecked(
+        include_str!("./svg_data_uri/attitude_indicator_pitch.svg.raw").into(),
+    );
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
