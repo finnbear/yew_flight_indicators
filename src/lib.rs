@@ -7,6 +7,7 @@ mod attitude_indicator2;
 mod heading_indicator;
 mod turn_coordinator;
 mod variometer;
+mod heading_indicator2;
 
 /// Properties, used for components and arguments to functions.
 pub mod props {
@@ -17,6 +18,7 @@ pub mod props {
     pub use crate::attitude_indicator::AttitudeIndicatorProps;
     pub use crate::attitude_indicator2::AttitudeIndicatorProps2;
     pub use crate::heading_indicator::HeadingIndicatorProps;
+    pub use crate::heading_indicator2::HeadingIndicatorProps2;
     pub use crate::turn_coordinator::TurnCoordinatorProps;
     pub use crate::variometer::VariometerProps;
 }
@@ -32,6 +34,7 @@ pub mod component {
     pub use crate::heading_indicator::HeadingIndicator;
     pub use crate::turn_coordinator::TurnCoordinator;
     pub use crate::variometer::Variometer;
+    pub use crate::heading_indicator2::HeadingIndicator2;
 }
 
 /// Pure functions that return Yew `Html`.
@@ -45,4 +48,5 @@ pub mod function {
     pub use crate::heading_indicator::heading_indicator;
     pub use crate::turn_coordinator::turn_coordinator;
     pub use crate::variometer::variometer;
+    pub use crate::heading_indicator2::heading_indicator2;
 }
