@@ -163,7 +163,7 @@
      id="layer1">
     <path
        d="M 50,7.2753906 A 42.723682,42.723682 0 0 0 7.2753906,50 42.723682,42.723682 0 0 0 50,92.724609 42.723682,42.723682 0 0 0 92.724609,50 42.723682,42.723682 0 0 0 50,7.2753906 Z M 84.699219,40.443359 A 36,36 0 0 1 86,50 36,36 0 0 1 84.669922,59.548828 L 73.050781,56.347656 A 24,24 0 0 0 74,50 24,24 0 0 0 73.128906,43.630859 Z"
-       style="fill:#2d3133;stroke-width:0;filter:url(#filter108)"
+       style="fill:#1e201f;fill-opacity:1;stroke-width:0;filter:url(#filter108)"
        id="path64" />
     <path
        d="M 50,2.25 C 23.628509,2.2500011 2.2500011,23.628509 2.25,50 2.285713,57.532063 4.1027846,64.948928 7.5527344,71.644531 L 4.2285156,74.96875 c -2.3050372,2.305017 -2.3050372,6.015293 0,8.320312 L 16.710937,95.771484 c 2.305038,2.305009 6.017229,2.305021 8.322266,0 l 3.322266,-3.324218 C 35.051072,95.897215 42.467937,97.714287 50,97.75 76.371491,97.749999 97.749999,76.371491 97.75,50 97.749999,23.628509 76.371491,2.2500011 50,2.25 Z m 0,5.0253906 C 73.596267,7.2748806 92.725119,26.403733 92.724609,50 92.725119,73.596267 73.596267,92.725119 50,92.724609 26.403733,92.725119 7.2748806,73.596267 7.2753906,50 7.2748806,26.403733 26.403733,7.2748806 50,7.2753906 Z"
@@ -556,7 +556,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan4">0</tspan></text>
+         id="tspan1">0</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8"
@@ -566,7 +566,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan5">1</tspan></text>
+         id="tspan2">1</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-3"
@@ -576,7 +576,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan6">9</tspan></text>
+         id="tspan3">9</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-3-1"
@@ -586,7 +586,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan7">8</tspan></text>
+         id="tspan4">8</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-2"
@@ -596,7 +596,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan8">2</tspan></text>
+         id="tspan5">2</tspan></text>
     <text
        xml:space="preserve"
        id="text63"
@@ -606,7 +606,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan9">3</tspan></text>
+         id="tspan6">3</tspan></text>
     <text
        xml:space="preserve"
        id="text65"
@@ -616,7 +616,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan10">4</tspan></text>
+         id="tspan7">4</tspan></text>
     <text
        xml:space="preserve"
        id="text67"
@@ -626,7 +626,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan11">5</tspan></text>
+         id="tspan8">5</tspan></text>
     <text
        xml:space="preserve"
        id="text69"
@@ -636,7 +636,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan12">6</tspan></text>
+         id="tspan9">6</tspan></text>
     <text
        xml:space="preserve"
        id="text71"
@@ -646,7 +646,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan13">7</tspan></text>
+         id="tspan10">7</tspan></text>
     <path
        d="M 56.066406,62.947266 55.0625,60.833984 A 12,12 0 0 1 54.478516,61.0625 Z"
        style="fill:#ffffff;stroke-width:0"

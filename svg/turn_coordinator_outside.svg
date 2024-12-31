@@ -141,12 +141,12 @@
        transform="translate(-17.697265,-0.4587762)"><tspan
          x="67.696602"
          y="86"
-         id="tspan4">NO PITCH<tspan
+         id="tspan1">NO PITCH<tspan
    y="86"
-   id="tspan5"> </tspan></tspan><tspan
+   id="tspan2"> </tspan></tspan><tspan
          x="67.696602"
          y="90.166661"
-         id="tspan6">INFORMATION</tspan></text>
+         id="tspan3">INFORMATION</tspan></text>
     <rect
        style="fill:#ffffff;stroke-width:0"
        id="rect2"
@@ -187,7 +187,7 @@
        transform="translate(-8.3515625,-47.091197)"><tspan
          x="35"
          y="84.539062"
-         id="tspan7">TURN COORDINATOR</tspan></text>
+         id="tspan4">TURN COORDINATOR</tspan></text>
     <text
        xml:space="preserve"
        id="text6-3-6"
@@ -197,9 +197,9 @@
        transform="translate(3.4423828,-69.6025)"><tspan
          x="35"
          y="84.539062"
-         id="tspan9"><tspan
+         id="tspan6"><tspan
            style="fill:#ffffff"
-           id="tspan8">D.C. ELEC.</tspan></tspan></text>
+           id="tspan5">D.C. ELEC.</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text6-3-6-2"
@@ -209,7 +209,7 @@
        transform="translate(7.7900391,-8.0862156)"><tspan
          x="35"
          y="84.539062"
-         id="tspan10">2 MIN.</tspan></text>
+         id="tspan7">2 MIN.</tspan></text>
     <text
        xml:space="preserve"
        id="text6-3-6-2-5"
@@ -219,7 +219,7 @@
        transform="translate(-19.216502,-17.250061)"><tspan
          x="35"
          y="85.718747"
-         id="tspan11">L</tspan></text>
+         id="tspan8">L</tspan></text>
     <text
        xml:space="preserve"
        id="text6-3-6-2-5-7"
@@ -229,7 +229,7 @@
        transform="translate(45.132608,-17.250061)"><tspan
          x="35"
          y="85.718747"
-         id="tspan12">R</tspan></text>
+         id="tspan9">R</tspan></text>
     <path
        d="M 50.000005,2.2500028 A 47.750002,47.750002 0 0 0 2.2500028,50.000005 47.750002,47.750002 0 0 0 50.000005,97.750003 47.750002,47.750002 0 0 0 97.750003,50.000005 47.750002,47.750002 0 0 0 50.000005,2.2500028 Z m 0,5.026316 A 42.723686,42.723686 0 0 1 92.723689,50.000005 42.723686,42.723686 0 0 1 50.000005,92.723693 42.723686,42.723686 0 0 1 7.2763188,50.000005 42.723686,42.723686 0 0 1 50.000005,7.2763188 Z"
        style="display:inline;fill:#2b2d2b;fill-opacity:1;stroke:#1c1c1c;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2)"
@@ -248,12 +248,5 @@
        height="12"
        x="54.25"
        y="61" />
-    <ellipse
-       style="fill:#1c1e1c;fill-opacity:1;stroke-width:0"
-       id="path18"
-       cx="50"
-       cy="67"
-       rx="4"
-       ry="4.75" />
   </g>
 </svg>

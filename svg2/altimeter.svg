@@ -9,7 +9,7 @@
    id="svg1"
    inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
    sodipodi:docname="altimeter.svg"
-   inkscape:export-filename="../svg/altimeter_outside.svg"
+   inkscape:export-filename="../svg/altimeter_face.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="4"
-     inkscape:cx="21.625"
-     inkscape:cy="55.375"
+     inkscape:zoom="8"
+     inkscape:cx="34.375"
+     inkscape:cy="55.9375"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
      inkscape:window-x="70"
@@ -452,7 +452,7 @@
        transform="translate(-0.24603551,1.8786311)"><tspan
          x="75"
          y="49.539062"
-         id="tspan4">30.0</tspan></text>
+         id="tspan1">30.0</tspan></text>
     <text
        xml:space="preserve"
        id="text66-2"
@@ -460,7 +460,7 @@
        transform="rotate(10,39.329877,48.499136)"><tspan
          x="75"
          y="49.539062"
-         id="tspan5">30.1</tspan></text>
+         id="tspan2">30.1</tspan></text>
     <text
        xml:space="preserve"
        id="text66-2-0"
@@ -468,7 +468,7 @@
        transform="rotate(20,44.980743,48.817667)"><tspan
          x="75"
          y="49.539062"
-         id="tspan6">30.2</tspan></text>
+         id="tspan3">30.2</tspan></text>
     <text
        xml:space="preserve"
        id="text66-2-0-0"
@@ -476,7 +476,7 @@
        transform="rotate(30,46.508418,48.888688)"><tspan
          x="75"
          y="49.539062"
-         id="tspan7">30.3</tspan></text>
+         id="tspan4">30.3</tspan></text>
     <text
        xml:space="preserve"
        id="text66-2-0-0-7"
@@ -484,7 +484,7 @@
        transform="rotate(40,47.621214,48.317103)"><tspan
          x="75"
          y="49.539062"
-         id="tspan8">30.4</tspan></text>
+         id="tspan5">30.4</tspan></text>
     <text
        xml:space="preserve"
        id="text66-8"
@@ -492,7 +492,7 @@
        transform="rotate(-10,61.420217,50.392538)"><tspan
          x="75"
          y="49.539062"
-         id="tspan9">29.9</tspan></text>
+         id="tspan6">29.9</tspan></text>
     <text
        xml:space="preserve"
        id="text66-8-9"
@@ -502,7 +502,7 @@
        inkscape:transform-center-y="0.66021338"><tspan
          x="75"
          y="49.539062"
-         id="tspan10">29.8</tspan></text>
+         id="tspan7">29.8</tspan></text>
     <text
        xml:space="preserve"
        id="text66-8-9-2"
@@ -512,7 +512,7 @@
        inkscape:transform-center-y="0.30068315"><tspan
          x="75"
          y="49.539062"
-         id="tspan11">29.7</tspan></text>
+         id="tspan8">29.7</tspan></text>
     <text
        xml:space="preserve"
        id="text66-8-9-2-0"
@@ -522,7 +522,7 @@
        inkscape:transform-center-y="-0.11295895"><tspan
          x="75"
          y="49.539062"
-         id="tspan12">29.6</tspan></text>
+         id="tspan9">29.6</tspan></text>
     <text
        xml:space="preserve"
        id="text66-8-9-2-0-1"
@@ -532,7 +532,7 @@
        inkscape:transform-center-y="-0.48338527"><tspan
          x="75"
          y="49.539062"
-         id="tspan13">29.5</tspan></text>
+         id="tspan10">29.5</tspan></text>
     <rect
        style="fill:#ffffff;stroke-width:0"
        id="rect76"
@@ -998,7 +998,7 @@
      id="layer1">
     <path
        d="M 50,7.2753906 A 42.723682,42.723682 0 0 0 7.2753906,50 42.723682,42.723682 0 0 0 50,92.724609 42.723682,42.723682 0 0 0 92.724609,50 42.723682,42.723682 0 0 0 50,7.2753906 Z M 84.699219,40.443359 A 36,36 0 0 1 86,50 36,36 0 0 1 84.669922,59.548828 L 73.050781,56.347656 A 24,24 0 0 0 74,50 24,24 0 0 0 73.128906,43.630859 Z"
-       style="fill:#2d3133;stroke-width:0;filter:url(#filter108)"
+       style="fill:#1e201f;stroke-width:0;filter:url(#filter108);fill-opacity:1"
        id="path64"
        inkscape:label="Mechanics" />
     <path
@@ -1486,7 +1486,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan14">0</tspan></text>
+         id="tspan11">0</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8"
@@ -1496,7 +1496,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan15">1</tspan></text>
+         id="tspan12">1</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-3"
@@ -1506,7 +1506,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan16">9</tspan></text>
+         id="tspan13">9</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-3-1"
@@ -1516,7 +1516,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan17">8</tspan></text>
+         id="tspan14">8</tspan></text>
     <text
        xml:space="preserve"
        id="text62-3-8-2"
@@ -1526,7 +1526,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan18">2</tspan></text>
+         id="tspan15">2</tspan></text>
     <text
        xml:space="preserve"
        id="text63"
@@ -1536,7 +1536,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan19">3</tspan></text>
+         id="tspan16">3</tspan></text>
     <text
        xml:space="preserve"
        id="text65"
@@ -1546,7 +1546,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan20">4</tspan></text>
+         id="tspan17">4</tspan></text>
     <text
        xml:space="preserve"
        id="text67"
@@ -1556,7 +1556,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan21">5</tspan></text>
+         id="tspan18">5</tspan></text>
     <text
        xml:space="preserve"
        id="text69"
@@ -1566,7 +1566,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan22">6</tspan></text>
+         id="tspan19">6</tspan></text>
     <text
        xml:space="preserve"
        id="text71"
@@ -1576,7 +1576,7 @@
        y="0"><tspan
          x="36"
          y="37.308594"
-         id="tspan23">7</tspan></text>
+         id="tspan20">7</tspan></text>
     <path
        d="M 56.066406,62.947266 55.0625,60.833984 A 12,12 0 0 1 54.478516,61.0625 Z"
        style="fill:#ffffff;stroke-width:0"
@@ -1656,7 +1656,7 @@
      style="display:inline;filter:url(#filter15)">
     <path
        d="m 50,26.5 c -12.97864,0 -23.5,10.52136 -23.5,23.5 0.01897,8.882932 5.045117,16.9961 12.990234,20.96875 L 44.5,60.037109 c 1.681806,0.94074 3.57306,1.443776 5.5,1.462891 1.92694,-0.01911 3.818194,-0.522151 5.5,-1.462891 L 60.509766,70.96875 C 68.454883,66.9961 73.481027,58.882932 73.5,50 73.5,37.02136 62.97864,26.5 50,26.5 Z"
-       style="fill:#2b2f32;fill-opacity:1;stroke-width:0"
+       style="fill:#1e201f;fill-opacity:1;stroke-width:0"
        id="path10" />
     <text
        xml:space="preserve"
@@ -1665,7 +1665,7 @@
        transform="translate(3.1591797)"><tspan
          x="36"
          y="35.539062"
-         id="tspan24">ALTIMETER</tspan></text>
+         id="tspan21">ALTIMETER</tspan></text>
     <text
        xml:space="preserve"
        id="text62-7"
@@ -1673,10 +1673,10 @@
        transform="translate(-6.1272939,11.926908)"><tspan
          x="36"
          y="34.359378"
-         id="tspan25">CALIBRATED </tspan><tspan
+         id="tspan22">CALIBRATED </tspan><tspan
          x="36"
          y="37.692714"
-         id="tspan26">TO 20,000FT</tspan></text>
+         id="tspan23">TO 20,000FT</tspan></text>
   </g>
   <g
      id="layer2"
