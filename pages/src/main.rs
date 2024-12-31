@@ -31,6 +31,7 @@ fn app() -> Html {
                 heading={time * 10.0}
                 autopilot_heading={time * 23.0}
             />
+            <Variometer2 vertical_speed={2000.0 * (time * 0.5).sin()}/>
             <AirspeedIndicator
                 airspeed={80.0 + 80.0 * (time * 0.5).sin()}
                 max_airspeed={120.0 + 80.0 * (time * 0.5).sin()}
