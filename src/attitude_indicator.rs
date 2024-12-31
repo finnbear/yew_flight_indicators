@@ -3,7 +3,7 @@ use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
 pub struct AttitudeIndicatorProps {
-    /// Aircraft pitch in degrees.
+    /// Aircraft pitch in degrees. Max 40 degree deflection is visible.
     pub pitch: f32,
     /// Aircraft roll in degrees.
     pub roll: f32,

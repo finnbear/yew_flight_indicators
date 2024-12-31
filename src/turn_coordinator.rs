@@ -6,6 +6,8 @@ pub struct TurnCoordinatorProps {
     /// Rate of change of heading, in degrees of turn.
     pub turn: f32,
     /// Slip angle in degrees. Use negative values for skid.
+    ///
+    /// Max 45 degree deflection is visible.
     #[prop_or(0.0)]
     pub slip: f32,
     /// Width and height in any CSS unit.

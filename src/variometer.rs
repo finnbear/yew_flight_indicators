@@ -3,7 +3,7 @@ use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
 pub struct VariometerProps {
-    /// Vertical speed in feet per minute.
+    /// Vertical speed in feet per minute. Max 20 feet per minute is visible.
     pub vertical_speed: f32,
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]

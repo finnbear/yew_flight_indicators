@@ -5,7 +5,7 @@ use yew::{html, AttrValue, Component, Html, Properties};
 pub struct AltimeterProps {
     /// Aircraft altitude in feet.
     pub altitude: f32,
-    /// Air pressure calibration in inHg.
+    /// Air pressure calibration in inHg. The supported range is 29.5 inHg to 30.4 inHg.
     #[prop_or(29.92)]
     pub pressure: f32,
     /// Width and height in any CSS unit.
