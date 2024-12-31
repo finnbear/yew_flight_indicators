@@ -14,7 +14,6 @@
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -35,7 +34,7 @@
      inkscape:window-x="70"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1"
+     inkscape:current-layer="layer2"
      showgrid="true">
     <inkscape:grid
        id="grid35"
@@ -158,15 +157,6 @@
        width="6.1669922"
        height="4.5785704"
        id="rect7-1-4-6-5-2" />
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath20">
-      <use
-         x="0"
-         y="0"
-         xlink:href="#g19"
-         id="use20" />
-    </clipPath>
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
@@ -288,20 +278,9 @@
      style="display:inline">
     <g
        id="g20"
-       clip-path="url(#clipPath20)"
+       clip-path="none"
        inkscape:label="Pitch"
        style="display:inline">
-      <g
-         inkscape:label="Clip"
-         id="g19">
-        <circle
-           style="opacity:1;fill:#ffffff;stroke:#cc0000;stroke-width:0"
-           id="path16"
-           cx="500"
-           cy="500"
-           inkscape:label="Mask"
-           r="348" />
-      </g>
       <rect
          style="display:inline;opacity:1;fill:#534437;fill-opacity:1;stroke:#cc0000;stroke-width:0"
          id="rect1"
@@ -487,9 +466,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan2"><tspan
+           id="tspan35"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan1">10</tspan></tspan></text>
+             id="tspan34">10</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-458.23242,119.16992)"
@@ -497,9 +476,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan4"><tspan
+           id="tspan37"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan3">20</tspan></tspan></text>
+             id="tspan36">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-420.79102,219.16992)"
@@ -507,9 +486,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan6"><tspan
+           id="tspan39"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan5">30</tspan></tspan></text>
+             id="tspan38">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-381.70957,318.16235)"
@@ -517,9 +496,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan8"><tspan
+           id="tspan41"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan7">40</tspan></tspan></text>
+             id="tspan40">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-833.64054,318.16235)"
@@ -527,9 +506,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-5);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan10"><tspan
+           id="tspan43"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan9">40</tspan></tspan></text>
+             id="tspan42">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-381.85811,-480.12773)"
@@ -537,9 +516,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-6);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan12"><tspan
+           id="tspan45"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan11">40</tspan></tspan></text>
+             id="tspan44">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-833.78906,-480.12773)"
@@ -547,9 +526,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-6-5-2);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan14"><tspan
+           id="tspan47"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan13">40</tspan></tspan></text>
+             id="tspan46">40</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-795.79102,219.16992)"
@@ -557,9 +536,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-8);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan16"><tspan
+           id="tspan49"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan15">30</tspan></tspan></text>
+             id="tspan48">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-420.81104,-380.32629)"
@@ -567,9 +546,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-2);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan18"><tspan
+           id="tspan51"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan17">30</tspan></tspan></text>
+             id="tspan50">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-795.81104,-380.32629)"
@@ -577,9 +556,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-4-8-9);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan20"><tspan
+           id="tspan53"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan19">30</tspan></tspan></text>
+             id="tspan52">30</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-758.23242,119.16992)"
@@ -587,9 +566,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-0);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan22"><tspan
+           id="tspan55"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan21">20</tspan></tspan></text>
+             id="tspan54">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-458.25244,-280.68402)"
@@ -597,9 +576,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-42);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan24"><tspan
+           id="tspan57"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan23">20</tspan></tspan></text>
+             id="tspan56">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-758.25244,-280.68402)"
@@ -607,9 +586,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-1-0-0);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan26"><tspan
+           id="tspan59"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan25">20</tspan></tspan></text>
+             id="tspan58">20</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-721.83594,19.169922)"
@@ -617,9 +596,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-3);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan28"><tspan
+           id="tspan61"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan27">10</tspan></tspan></text>
+             id="tspan60">10</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-496.85596,-180.83008)"
@@ -627,9 +606,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-7);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan30"><tspan
+           id="tspan63"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan29">10</tspan></tspan></text>
+             id="tspan62">10</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(10,0,0,10,-721.85596,-180.83008)"
@@ -637,9 +616,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Serif;-inkscape-font-specification:Serif;white-space:pre;shape-inside:url(#rect7-3-5);display:inline;opacity:1;fill:#ffffff"><tspan
            x="108"
            y="59.539062"
-           id="tspan32"><tspan
+           id="tspan65"><tspan
              style="font-weight:bold;-inkscape-font-specification:'Serif Bold'"
-             id="tspan31">10</tspan></tspan></text>
+             id="tspan64">10</tspan></tspan></text>
     </g>
     <g
        id="layer3"
@@ -889,6 +868,6 @@
        style="font-size:4px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#ffffff"><tspan
          x="40"
          y="73.539062"
-         id="tspan33">VACUUM</tspan></text>
+         id="tspan66">VACUUM</tspan></text>
   </g>
 </svg>
