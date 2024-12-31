@@ -5,6 +5,9 @@ use yew::{html, AttrValue, Component, Html, Properties};
 pub struct HeadingIndicatorProps {
     /// Compass heading in degrees.
     pub heading: f32,
+    /// Optional autopilot heading in degrees.
+    #[prop_or(None)]
+    pub autopilot_heading: Option<f32>,
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
@@ -43,24 +46,31 @@ pub fn heading_indicator(props: &HeadingIndicatorProps) -> Html {
     "#
     );
 
-    let heading_mechanics = include_str!("./svg_data_uri/heading_mechanics.svg");
-    let heading_yaw = include_str!("./svg_data_uri/heading_yaw.svg");
-    let fi_circle = include_str!("./svg_data_uri/fi_circle.svg");
+    let heading_indicator_back = include_str!("./svg_part_data_uri/heading_indicator_back.svg");
+    let heading_indicator_autopilot =
+        include_str!("./svg_part_data_uri/heading_indicator_autopilot.svg");
+    let heading_indicator_outside =
+        include_str!("./svg_part_data_uri/heading_indicator_outside.svg");
 
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
         >
-            <div
+            <img
+                src={heading_indicator_back}
                 class={box_style.clone()}
+                alt=""
                 style={format!("transform: rotate({}deg);", -props.heading)}
-            >
-                <img src={heading_yaw} class={box_style.clone()} alt=""/>
-            </div>
-            <div class={box_style.clone()}>
-                <img src={heading_mechanics} class={box_style.clone()} alt=""/>
-                <img src={fi_circle} class={box_style.clone()} alt=""/>
-            </div>
+            />
+            if let Some(autopilot_heading) = props.autopilot_heading {
+                <img
+                    src={heading_indicator_autopilot}
+                    class={box_style.clone()}
+                    alt=""
+                    style={format!("transform: rotate({}deg);", -props.heading + autopilot_heading)}
+                />
+            }
+            <img src={heading_indicator_outside} class={box_style.clone()} alt=""/>
         </div>
     }
 }

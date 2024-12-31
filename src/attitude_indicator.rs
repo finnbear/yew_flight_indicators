@@ -45,12 +45,14 @@ pub fn attitude_indicator(props: &AttitudeIndicatorProps) -> Html {
     "#
     );
 
-    let horizon_back = include_str!("./svg_data_uri/horizon_back.svg");
-    let horizon_ball = include_str!("./svg_data_uri/horizon_ball.svg");
-    let horizon_circle = include_str!("./svg_data_uri/horizon_circle.svg");
-    let horizon_mechanics = include_str!("./svg_data_uri/horizon_mechanics.svg");
-    let fi_circle = include_str!("./svg_data_uri/fi_circle.svg");
+    let altitude_indicator_outside =
+        include_str!("./svg_part_data_uri/attitude_indicator_outside.svg");
+    let altitude_indicator_roll = include_str!("./svg_part_data_uri/attitude_indicator_roll.svg");
 
+    let pitch_percent = props.pitch.clamp(-40.0, 40.0);
+    let attitude_indicator_pitch = Html::from_html_unchecked(
+        include_str!("./svg_part_data_uri/attitude_indicator_pitch.svg.raw").into(),
+    );
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
@@ -59,19 +61,16 @@ pub fn attitude_indicator(props: &AttitudeIndicatorProps) -> Html {
                 class={box_style.clone()}
                 style={format!("top: 0%; transform: rotate({}deg);", props.roll)}
             >
-                <img src={horizon_back} alt="" class={box_style.clone()}/>
                 <div
                     class={box_style.clone()}
-                    style={format!("top: {}%;", props.pitch.clamp(-30.0, 30.0) * 0.7)}
+                    style={format!("top: {}%; clip-path: circle(36% at 50% {}%);", pitch_percent, 50.0 - pitch_percent)}
                 >
-                    <img src={horizon_ball} class={box_style.clone()} alt=""/>
+                    // Include as `Html` to allow overflowing untransformed image border.
+                    {attitude_indicator_pitch}
                 </div>
-                <img src={horizon_circle} class={box_style.clone()} alt=""/>
+                <img src={altitude_indicator_roll} class={box_style.clone()} alt=""/>
             </div>
-            <div class={box_style.clone()}>
-                <img src={horizon_mechanics} class={box_style.clone()} alt=""/>
-                <img src={fi_circle} class={box_style.clone()} alt=""/>
-            </div>
+            <img src={altitude_indicator_outside} class={box_style.clone()} alt=""/>
         </div>
     }
 }

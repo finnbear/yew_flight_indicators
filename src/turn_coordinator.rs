@@ -5,14 +5,15 @@ use yew::{html, AttrValue, Component, Html, Properties};
 pub struct TurnCoordinatorProps {
     /// Rate of change of heading, in degrees of turn.
     pub turn: f32,
+    /// Slip angle in degrees. Use negative values for skid.
+    #[prop_or(0.0)]
+    pub slip: f32,
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
 }
 
-/// Indicates the rate of change of heading.
-///
-/// The inlinometer is not supported.
+/// Indicates the rate of change of heading and the slip/skid.
 #[non_exhaustive]
 pub struct TurnCoordinator;
 
@@ -33,9 +34,7 @@ impl Component for TurnCoordinator {
     }
 }
 
-/// Indicates the rate of change of heading.
-///
-/// The inlinometer is not supported.
+/// Indicates the rate of change of heading and the slip/skid.
 pub fn turn_coordinator(props: &TurnCoordinatorProps) -> Html {
     let box_style = css!(
         r#"
@@ -47,21 +46,28 @@ pub fn turn_coordinator(props: &TurnCoordinatorProps) -> Html {
     "#
     );
 
-    let turn_coordinator = include_str!("./svg_data_uri/turn_coordinator.svg");
-    let fi_tc_airplane = include_str!("./svg_data_uri/fi_tc_airplane.svg");
-    let fi_circle = include_str!("./svg_data_uri/fi_circle.svg");
+    let turn_coordinator_outside = include_str!("./svg_part_data_uri/turn_coordinator_outside.svg");
+    let turn_coordinator_ball = include_str!("./svg_part_data_uri/turn_coordinator_ball.svg");
+    let turn_coordinator_plane = include_str!("./svg_part_data_uri/turn_coordinator_plane.svg");
 
+    let slip = props.slip.clamp(-45.0, 45.0).to_radians().sin() * 20.0;
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
         >
-            <img src={turn_coordinator} class={box_style.clone()} alt=""/>
-                <div class={box_style.clone()} style={format!("transform: rotate({}deg);", props.turn)}>
-            <img src={fi_tc_airplane} class={box_style.clone()} alt=""/>
-            </div>
-            <div class={box_style.clone()}>
-                <img src={fi_circle} class={box_style.clone()} alt=""/>
-            </div>
+            <img src={turn_coordinator_outside} class={box_style.clone()} alt=""/>
+            <img
+                src={turn_coordinator_ball}
+                class={box_style.clone()}
+                alt=""
+                style={format!("transform: translate({}%, {}%);", slip, slip.abs() * -0.05)}
+            />
+            <img
+                src={turn_coordinator_plane}
+                class={box_style.clone()}
+                alt=""
+                style={format!("transform: rotate({}deg);", props.turn)}
+            />
         </div>
     }
 }

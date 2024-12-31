@@ -5,8 +5,8 @@ use yew::{html, AttrValue, Component, Html, Properties};
 pub struct AltimeterProps {
     /// Aircraft altitude in feet.
     pub altitude: f32,
-    /// Air pressure calibration in mmHg.
-    #[prop_or(1013.25)]
+    /// Air pressure calibration in inHg.
+    #[prop_or(29.92)]
     pub pressure: f32,
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
@@ -46,33 +46,46 @@ pub fn altimeter(props: &AltimeterProps) -> Html {
     "#
     );
 
-    let fi_needle = include_str!("./svg_data_uri/fi_needle.svg");
-    let fi_needle_small = include_str!("./svg_data_uri/fi_needle_small.svg");
-    let altitude_pressure = include_str!("./svg_data_uri/altitude_pressure.svg");
-    let altitude_ticks = include_str!("./svg_data_uri/altitude_ticks.svg");
-    let fi_circle = include_str!("./svg_data_uri/fi_circle.svg");
+    let altimeter_pressure = include_str!("./svg_part_data_uri/altimeter_pressure.svg");
+    let altimeter_outside = include_str!("./svg_part_data_uri/altimeter_outside.svg");
+    let altimeter_face = include_str!("./svg_part_data_uri/altimeter_face.svg");
+    let altimeter_small_hand = include_str!("./svg_part_data_uri/altimeter_small_hand.svg");
+    let altimeter_large_hand = include_str!("./svg_part_data_uri/altimeter_large_hand.svg");
 
-    let needle = 90.0 + (props.altitude as u32 % 1000) as f32 * 360.0 / 1000.0;
-    let needle_small = props.altitude as f32 / 10000.0 * 360.0;
-    let pressure = 2.0 * props.pressure - 1980.0;
+    let needle = (props.altitude as u32 % 1000) as f32 * 360.0 / 1000.0;
+    let small_hand = -90.0 + props.altitude as f32 / 10000.0 * 360.0;
+    let large_hand = (30.0 - props.pressure.clamp(29.5, 30.4)) * 100.0;
+    let face = ((props.altitude - 10000.0).max(0.0) / 10000.0).min(1.0) * 60.0;
 
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
         >
-            <div class={box_style.clone()} style={format!("transform: rotate({pressure}deg);")}>
-                <img src={altitude_pressure} class={box_style.clone()} alt=""/>
-            </div>
-            <img src={altitude_ticks} class={box_style.clone()} alt=""/>
-            <div class={box_style.clone()} style={format!("transform: rotate({needle_small}deg);")}>
-                <img src={fi_needle_small} class={box_style.clone()} alt=""/>
-            </div>
-            <div class={box_style.clone()} style={format!("transform: rotate({needle}deg);")}>
-                <img src={fi_needle} class={box_style.clone()} alt=""/>
-            </div>
-            <div class={box_style.clone()}>
-                <img src={fi_circle} class={box_style.clone()} alt=""/>
-            </div>
+            <img
+                src={altimeter_pressure}
+                class={box_style.clone()}
+                alt=""
+                style={format!("transform: rotate({large_hand}deg);")}
+            />
+            <img src={altimeter_outside} class={box_style.clone()} alt=""/>
+            <img
+                src={altimeter_face}
+                class={box_style.clone()}
+                alt=""
+                style={format!("transform: rotate({face}deg);")}
+            />
+            <img
+                src={altimeter_small_hand}
+                class={box_style.clone()}
+                alt=""
+                style={format!("transform: rotate({small_hand}deg);")}
+            />
+            <img
+                src={altimeter_large_hand}
+                class={box_style.clone()}
+                alt=""
+                style={format!("transform: rotate({needle}deg);")}
+            />
         </div>
     }
 }
