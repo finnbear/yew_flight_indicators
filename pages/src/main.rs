@@ -27,6 +27,7 @@ fn app() -> Html {
                 pitch={50.0 * (time * 0.25).sin()}
                 roll={30.0 * (time * 0.5).sin()}
             />
+            <TurnCoordinator2 turn={30.0 * (time * 0.5).sin()}/>
             <HeadingIndicator2
                 heading={time * 10.0}
                 autopilot_heading={time * 23.0}

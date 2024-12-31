@@ -64,6 +64,7 @@ pub fn attitude_indicator2(props: &AttitudeIndicatorProps2) -> Html {
                     class={box_style.clone()}
                     style={format!("top: {}%; clip-path: circle(36% at 50% {}%);", pitch_percent, 50.0 - pitch_percent)}
                 >
+                    // Include as `Html` to allow overflowing untransformed image border.
                     {attitude_indicator_pitch}
                 </div>
                 <img src={altitude_indicator_roll} class={box_style.clone()} alt=""/>

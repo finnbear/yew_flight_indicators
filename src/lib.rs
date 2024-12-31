@@ -9,6 +9,7 @@ mod turn_coordinator;
 mod variometer;
 mod heading_indicator2;
 mod variometer2;
+mod turn_coordinator2;
 
 /// Properties, used for components and arguments to functions.
 pub mod props {
@@ -23,6 +24,7 @@ pub mod props {
     pub use crate::turn_coordinator::TurnCoordinatorProps;
     pub use crate::variometer::VariometerProps;
     pub use crate::variometer2::VariometerProps2;
+    pub use crate::turn_coordinator2::TurnCoordinatorProps2;
 }
 
 /// Yew components.
@@ -38,6 +40,7 @@ pub mod component {
     pub use crate::variometer::Variometer;
     pub use crate::heading_indicator2::HeadingIndicator2;
     pub use crate::variometer2::Variometer2;
+    pub use crate::turn_coordinator2::TurnCoordinator2;
 }
 
 /// Pure functions that return Yew `Html`.
@@ -53,4 +56,5 @@ pub mod function {
     pub use crate::variometer::variometer;
     pub use crate::heading_indicator2::heading_indicator2;
     pub use crate::variometer2::variometer2;
+    pub use crate::turn_coordinator2::turn_coordinator2;
 }
