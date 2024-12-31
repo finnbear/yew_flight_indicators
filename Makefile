@@ -1,5 +1,5 @@
 svg_data_uri:
-	rm src/svg_part_data_uri/*
+	rm -f src/svg_part_data_uri/*
 	# TODO: --datauri unenc once https://github.com/svg/svgo/pull/2053 merges
 	svgo --input src/svg_part/*.svg -p 3 --multipass --pretty --output src/svg_part_data_uri/
 	cat src/svg_part_data_uri/attitude_indicator_pitch.svg | sed 's/width=\"100\"\ height=\"100\"/width=\"100%\"\ height=\"100%\"\ overflow=\"visible\"\ style=\"overflow: visible !important;\"/g' > src/svg_part_data_uri/attitude_indicator_pitch.svg.raw
