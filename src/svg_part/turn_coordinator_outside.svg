@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter2"
+       x="-0.022722513"
+       y="-0.022722513"
+       width="1.045445"
+       height="1.045445">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.501961"
+         flood-color="rgb(0,0,0)"
+         id="feFlood1" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.800000"
+         id="feGaussianBlur1" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.000000"
+         id="feOffset1" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite1" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite2" />
+    </filter>
+    <rect
+       x="35"
+       y="81"
+       width="49.459618"
+       height="6.0725069"
+       id="rect6-0" />
+    <rect
+       x="35"
+       y="81"
+       width="49.459618"
+       height="6.0725069"
+       id="rect6-0-6" />
+    <rect
+       x="35"
+       y="81"
+       width="18.557617"
+       height="6.0862155"
+       id="rect6-0-6-7" />
+    <rect
+       x="35"
+       y="81"
+       width="6.2926278"
+       height="7.2666821"
+       id="rect6-0-6-7-3" />
+    <rect
+       x="35"
+       y="81"
+       width="6.2926278"
+       height="7.2666821"
+       id="rect6-0-6-7-3-8" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter17"
+       x="-0.022588236"
+       y="-0.022542653"
+       width="1.0451765"
+       height="1.0450853">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.501961"
+         flood-color="rgb(0,0,0)"
+         id="feFlood16" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.800000"
+         id="feGaussianBlur16" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.000000"
+         id="feOffset16" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite16" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite17" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <circle
+       style="display:inline;fill:#1c1e1c;fill-opacity:1;stroke-width:0"
+       id="path1-1-9"
+       cx="50"
+       cy="50"
+       r="32" />
+    <path
+       id="rect17"
+       style="fill:#bab6a2;fill-opacity:1;stroke-width:0"
+       d="M 22.998579,60.260709 C 27.384848,60.802476 38.393043,62 50,62 61.645543,62 72.688336,60.794501 77.044946,60.255328 78.125617,60.121584 79,60.883048 79,61.972343 V 70 C 79,70 65,72 49.860863,72 35,72 21,70 21,70 v -7.984493 c 0,-1.113134 0.893838,-1.891249 1.998579,-1.754798 z" />
+    <path
+       d="M 50,7.4140625 A 42.5,42.586025 0 0 0 7.5,50 42.5,42.586025 0 0 0 50,92.585937 42.5,42.586025 0 0 0 92.5,50 42.5,42.586025 0 0 0 50,7.4140625 Z M 50,18 A 32,32 0 0 1 82,50 32,32 0 0 1 50,82 32,32 0 0 1 18,50 32,32 0 0 1 50,18 Z"
+       style="display:inline;fill:#151616;stroke-width:0;filter:url(#filter17)"
+       id="path7" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:3.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;white-space:pre;inline-size:43;display:inline;fill:#ffffff"
+       x="67.696602"
+       y="86"
+       id="text35"
+       transform="translate(-17.697265,-0.4587762)"><tspan
+         x="67.696602"
+         y="86"
+         id="tspan1">NO PITCH<tspan
+   y="86"
+   id="tspan2"> </tspan></tspan><tspan
+         x="67.696602"
+         y="90.166661"
+         id="tspan3">INFORMATION</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke-width:0"
+       id="rect2"
+       width="6"
+       height="2.5"
+       x="12"
+       y="48.75" />
+    <rect
+       style="fill:#ffffff;stroke-width:0"
+       id="rect3"
+       width="6"
+       height="2.5"
+       x="-8.1166649"
+       y="62.836239"
+       transform="rotate(-20)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0"
+       id="rect4"
+       width="6"
+       height="2.5"
+       x="-102.08941"
+       y="-31.133995"
+       transform="rotate(-160)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0"
+       id="rect5"
+       width="6"
+       height="2.5"
+       x="-88.0037"
+       y="-51.251034"
+       transform="scale(-1)" />
+    <text
+       xml:space="preserve"
+       id="text6-3"
+       style="font-weight:bold;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6-0);display:inline;fill:#ffffff"
+       x="12.93537"
+       y="0"
+       transform="translate(-8.3515625,-47.091197)"><tspan
+         x="35"
+         y="84.539062"
+         id="tspan4">TURN COORDINATOR</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text6-3-6"
+       style="font-weight:bold;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6-0-6);display:inline"
+       x="12.93537"
+       y="0"
+       transform="translate(3.4423828,-69.6025)"><tspan
+         x="35"
+         y="84.539062"
+         id="tspan6"><tspan
+           style="fill:#ffffff"
+           id="tspan5">D.C. ELEC.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text6-3-6-2"
+       style="font-weight:bold;font-size:4px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6-0-6-7);display:inline;fill:#ffffff"
+       x="12.93537"
+       y="0"
+       transform="translate(7.7900391,-8.0862156)"><tspan
+         x="35"
+         y="84.539062"
+         id="tspan7">2 MIN.</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text6-3-6-2-5"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6-0-6-7-3);display:inline;fill:#ffffff"
+       x="12.93537"
+       y="0"
+       transform="translate(-19.216502,-17.250061)"><tspan
+         x="35"
+         y="85.718747"
+         id="tspan8">L</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text6-3-6-2-5-7"
+       style="font-weight:bold;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6-0-6-7-3-8);display:inline;fill:#ffffff"
+       x="12.93537"
+       y="0"
+       transform="translate(45.132608,-17.250061)"><tspan
+         x="35"
+         y="85.718747"
+         id="tspan9">R</tspan></text>
+    <path
+       d="M 50.000005,2.2500028 A 47.750002,47.750002 0 0 0 2.2500028,50.000005 47.750002,47.750002 0 0 0 50.000005,97.750003 47.750002,47.750002 0 0 0 97.750003,50.000005 47.750002,47.750002 0 0 0 50.000005,2.2500028 Z m 0,5.026316 A 42.723686,42.723686 0 0 1 92.723689,50.000005 42.723686,42.723686 0 0 1 50.000005,92.723693 42.723686,42.723686 0 0 1 7.2763188,50.000005 42.723686,42.723686 0 0 1 50.000005,7.2763188 Z"
+       style="display:inline;fill:#2b2d2b;fill-opacity:1;stroke:#1c1c1c;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2)"
+       id="path10" />
+    <rect
+       style="fill:#1c1e1c;fill-opacity:1;stroke-width:0"
+       id="rect18"
+       width="1"
+       height="12"
+       x="44.75"
+       y="61" />
+    <rect
+       style="fill:#1c1e1c;fill-opacity:1;stroke-width:0"
+       id="rect18-4"
+       width="1"
+       height="12"
+       x="54.25"
+       y="61" />
+  </g>
+</svg>

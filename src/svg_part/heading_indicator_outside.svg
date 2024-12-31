@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter90"
+       x="-0.022722513"
+       y="-0.022722512"
+       width="1.045445"
+       height="1.045445">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.501961"
+         flood-color="rgb(0,0,0)"
+         id="feFlood89" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.800000"
+         id="feGaussianBlur89" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.000000"
+         id="feOffset89" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite89" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite90" />
+    </filter>
+  </defs>
+  <g
+     id="layer1"
+     style="display:inline;filter:url(#filter90)">
+    <path
+       id="path78"
+       style="fill:#ff6600;stroke-width:0"
+       d="m 79.057096,18.824579 2.121321,2.12132 -3.181981,1.06066 z" />
+    <path
+       id="path79"
+       style="fill:#ff6600;stroke-width:0"
+       d="m 81.185107,79.05732 -2.12132,2.121321 -1.06066,-3.181981 z" />
+    <path
+       id="path80"
+       style="fill:#ff6600;stroke-width:0"
+       d="m 20.952366,81.185331 -2.121321,-2.12132 3.181981,-1.06066 z" />
+    <path
+       id="path81"
+       style="fill:#ff6600;stroke-width:0"
+       d="m 18.824355,20.95259 2.12132,-2.121321 1.06066,3.181981 z" />
+    <path
+       id="path82"
+       style="fill:#ff6600;stroke-width:0"
+       d="m 92.589055,48.502892 2e-6,3 c 0,0 -6.000001,-0.5 -6.000001,-1.500001 0,-0.999999 5.999999,-1.499999 5.999999,-1.499999 z" />
+    <path
+       id="path83"
+       style="fill:#ff6600;stroke-width:0"
+       d="m 51.500138,92.591948 -3,10e-7 c 0,0 0.5,-6.000001 1.500001,-6.000001 0.999999,0 1.499999,6 1.499999,6 z" />
+    <path
+       id="rect77"
+       style="fill:#ff6600;stroke-width:0"
+       d="m 7.4110832,51.503031 -1.4e-6,-3 c 0,0 6.0000012,0.5 6.0000012,1.500001 0,0.999999 -5.9999998,1.499999 -5.9999998,1.499999 z" />
+    <path
+       d="m 50.000002,16.107005 c -3.28271,3.172915 -4.882883,11.229574 -5.4712,20.676325 -5.920662,3.355337 -20.790563,13.67247 -21.8848,16.409442 -0.812248,2.031643 -0.06839,6.867181 -0.06839,6.867181 l 21.95319,-7.961144 1.09424,16.409442 c 0,0 -6.50087,5.503308 -7.65968,7.65774 -0.58841,1.093959 0,5.469814 0,5.469814 l 10.393143,-4.375852 1.643497,3.281889 1.643497,-3.281889 10.393143,4.375852 c 0,0 0.58841,-4.375855 0,-5.469814 -1.15881,-2.154432 -7.65968,-7.65774 -7.65968,-7.65774 l 1.09424,-16.409442 21.95319,7.961144 c 0,0 0.743858,-4.835538 -0.06839,-6.867181 C 76.261765,50.4558 61.391865,40.138668 55.471202,36.78333 54.882885,27.33658 53.282712,19.279918 50.000002,16.107005 Z"
+       style="display:inline;fill:none;stroke:#ff6600;stroke-width:0.8;stroke-dasharray:none"
+       id="path85" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+       id="rect93"
+       width="0.80000001"
+       height="7.4139752"
+       x="49.599998"
+       y="9" />
+    <path
+       d="M 50.000005,2.2500008 A 47.750002,47.750002 0 0 0 2.2500028,50.000003 47.750002,47.750002 0 0 0 50.000005,97.750005 47.750002,47.750002 0 0 0 97.750003,50.000003 47.750002,47.750002 0 0 0 50.000005,2.2500008 Z m 0,5.026316 A 42.723686,42.723686 0 0 1 92.723689,50.000003 42.723686,42.723686 0 0 1 50.000005,92.723687 42.723686,42.723686 0 0 1 7.2763188,50.000003 42.723686,42.723686 0 0 1 50.000005,7.2763168 Z"
+       style="display:inline;fill:#2b2d2b;fill-opacity:1;stroke:#1c1c1c;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+       id="path10" />
+  </g>
+</svg>

@@ -3,7 +3,7 @@ use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
 pub struct VariometerProps {
-    /// Vertical speed in feet per minute.
+    /// Vertical speed in feet per minute. Max 20 feet per minute is visible.
     pub vertical_speed: f32,
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
@@ -43,26 +43,34 @@ pub fn variometer(props: &VariometerProps) -> Html {
     "#
     );
 
-    let vertical_mechanics = include_str!("./svg_data_uri/vertical_mechanics.svg");
-    let fi_needle = include_str!("./svg_data_uri/fi_needle.svg");
-    let fi_circle = include_str!("./svg_data_uri/fi_circle.svg");
+    let variometer_outside = include_str!("./svg_part_data_uri/variometer_outside.svg");
+    let variometer_hand = include_str!("./svg_part_data_uri/variometer_hand.svg");
 
-    let vario = props.vertical_speed * (1.0 / 1000.0);
-    const LIMIT: f32 = 1.95;
-    let vario = vario.clamp(-LIMIT, LIMIT);
-    let vario = vario * 90.0;
+    let vario = props.vertical_speed * (1.0 / 100.0);
+    fn positive_to_angle(vario: f32) -> f32 {
+        if vario < 5.0 {
+            vario * (35.0 / 5.0)
+        } else if vario < 10.0 {
+            35.0 + (vario - 5.0) * (45.0 / 5.0)
+        } else if vario < 15.0 {
+            35.0 + 45.0 + (vario - 10.0) * (50.0 / 5.0)
+        } else {
+            35.0 + 45.0 + 50.0 + (vario.min(20.0) - 15.0) * (42.5 / 5.0)
+        }
+    }
+    let angle = positive_to_angle(vario.abs()).copysign(vario);
 
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
         >
-            <img src={vertical_mechanics} class={box_style.clone()} alt=""/>
-            <div class={box_style.clone()} style={format!("transform: rotate({}deg);", vario)}>
-                <img src={fi_needle} class={box_style.clone()} alt=""/>
-            </div>
-            <div class={box_style.clone()}>
-                <img src={fi_circle} class={box_style.clone()} alt=""/>
-            </div>
+            <img src={variometer_outside} class={box_style.clone()} alt=""/>
+            <img
+                src={variometer_hand}
+                class={box_style.clone()}
+                alt=""
+                style={format!("transform: rotate({angle}deg);")}
+            />
         </div>
     }
 }

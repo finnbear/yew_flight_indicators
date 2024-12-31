@@ -15,14 +15,19 @@ Like [jQuery Flight Indicators](https://github.com/sebmatton/jQuery-Flight-Indic
 use yew_flight_indicators::component::*;
 
 yew::html!{
-    <div style="display: grid; grid-template-columns: repeat(3,1fr); width: min-content;">
+    <div
+        style="display: grid; grid-template-columns: repeat(3,1fr); gap: 0.5rem; width: min-content;"
+    >
         <AirspeedIndicator
             airspeed={80.0} // Knots.
-            max_airspeed={160.0} // Knots; default can be omitted.
+            stall_airspeed={70.0} // Knots; optional.
+            caution_airspeed={130.0} // Knots; optional.
+            never_exceed_airspeed={150.0} // Knots; optional.
+            max_airspeed={160.0} // Knots; optional.
         />
         <Altimeter
             altitude={50.0} // Feet.
-            pressure={1013.25} // mmHg; default can be omitted.
+            pressure={29.92} // inHg; optional.
         />
         <AttitudeIndicator
             pitch={50.0} // Degrees.
@@ -30,9 +35,11 @@ yew::html!{
         />
         <TurnCoordinator
             turn={30.0} // Degrees.
+            slip={20.0} // Degrees; optional.
         />
         <HeadingIndicator
             heading={200.0} // Degrees.
+            autopilot_heading={160.0} // Degrees; optional.
         />
         <Variometer
             vertical_speed={500.0} // Feet per minute.
@@ -41,14 +48,7 @@ yew::html!{
 }
 ```
 
-## Changes
-
-- Configurable max air speed, instead of it being fixed to 160 knots.
-- SVG's are optimized in advance (see `Makefile`).
-- Remove extraneous `filter:url(#filter7320)` from `fi_tc_airplane.svg`.
-- Showing a box around an indicator is not supported.
-
-## Authors
+## Acknowledgement
 
 Danny Edwards created the original [attitude-indicator](https://gitlab.com/DannyEdwards/attitude-indicator) in HTML.
 
@@ -56,12 +56,24 @@ Sébastien Matton added SVG's and adapted it into a [jQuery plugin](https://gith
 
 Corstian Boerman adapted the project by Sébastien into a [React library](https://github.com/skyhop/react-flight-indicators).
 
-Finn Bear has adapted the project by Corstian into a Yew library.
+Finn Bear has adapted the project by Corstian into a Yew library. As of version 0.2, the
+SVG's and code were re-drawn, re-written, and distributed under a new license.
 
 ## License
 
-The SVG's, with the following exception(s), are due to Sébastien Matton and are redistributed under the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text). See the LICENSE file for more information.
+Code and SVG's licensed under either of:
 
-The [turn coordinator SVG's](https://commons.wikimedia.org/wiki/File%3ATurn_coordinator.svg) are due to Mysid, and are redistributed under the [CC BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/deed.en).
+ * Apache License, Version 2.0
+   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+ * MIT license
+   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
 
-To the extent that the remainder of the code is a new expression, it is licensed under either of [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) or [MIT license](http://opensource.org/licenses/MIT) at your option.
+at your option.
+
+Additionally, SVG's can be licensed under the CC BY 4.0 License ([CC BY 4.0](src/svg_src/LICENSE-CC-BY) or https://creativecommons.org/licenses/by/4.0/legalcode.en) at your option.
+
+## Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual or triple licensed as above, without any additional terms or conditions.

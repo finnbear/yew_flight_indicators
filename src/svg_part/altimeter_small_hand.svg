@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter11"
+       x="-0.048487712"
+       y="-0.27428572"
+       width="1.0969754"
+       height="1.5485714">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.501961"
+         flood-color="rgb(0,0,0)"
+         id="feFlood10" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.800000"
+         id="feGaussianBlur10" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.000000"
+         id="feOffset10" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite10" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite11" />
+    </filter>
+  </defs>
+  <g
+     id="layer2"
+     style="display:inline;filter:url(#filter11)">
+    <path
+       d="m 40,46.5 c -1.932993,0 -3.5,1.567007 -3.5,3.5 0,1.932993 1.567007,3.5 3.5,3.5 0.914439,-0.0011 1.792142,-0.360025 2.445312,-1 H 49 L 47,50 49,47.5 H 42.447266 C 41.793612,46.859552 40.915115,46.500582 40,46.5 Z"
+       style="fill:#2b2f32;fill-opacity:1;stroke-width:0"
+       id="path5" />
+    <path
+       id="rect3"
+       style="fill:#fefbf2;fill-opacity:1;stroke-width:0"
+       d="m 49,47.5 19.097662,1.381683 1,-2 7,3 L 69,53 68.097662,50.881683 49,52.5 47,50 Z" />
+  </g>
+</svg>

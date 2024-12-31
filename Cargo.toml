@@ -1,9 +1,9 @@
 [package]
 name = "yew_flight_indicators"
-version = "0.1.2"
+version = "0.2.0"
 edition = "2021"
-authors = ["Finn Bear", "Corstian Boerman", "Sébastien Matton", "igneosaur"] # see README.md
-license = "GPL-3.0 AND CC-BY-SA-3.0 AND (MIT OR Apache-2.0)"
+authors = ["Finn Bear"] # see README.md for additional acknowledgements
+license = "MIT OR Apache-2.0"
 repository = "https://github.com/finnbear/yew_flight_indicators/"
 description = "Flight indicators for Yew websites"
 exclude = ["/Makefile", "/svg/", "/pages/", "/.vscode/", "/.github/"]
