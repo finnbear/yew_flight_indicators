@@ -143,13 +143,18 @@ pub fn airspeed_indicator(props: &AirspeedIndicatorProps) -> Html {
                     let start_y = 50.0 + start_angle.sin() * radius;
                     let end_x = 50.0 + end_angle.cos() * radius;
                     let end_y = 50.0 + end_angle.sin() * radius;
+                    let large = if end_angle - start_angle > std::f32::consts::PI {
+                        "1"
+                    } else {
+                        "0"
+                    };
                     html_nested!{
                         <path
                             stroke={range.color}
                             fill="none"
                             stroke-width="2"
                             d={format!(
-                                "M {start_x} {start_y} A {radius} {radius} 0 0 1 {end_x} {end_y}"
+                                "M {start_x} {start_y} A {radius} {radius} 0 {large} 1 {end_x} {end_y}"
                             )}
                         />
                     }

@@ -1,6 +1,6 @@
 [package]
 name = "yew_flight_indicators"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Finn Bear"] # see README.md for additional acknowledgements
 license = "MIT OR Apache-2.0"

@@ -7,7 +7,7 @@ fn app() -> Html {
     const SECONDS: u32 = 128;
     let time = use_raf(SECONDS * 1000, 0) as f32 * SECONDS as f32;
 
-    let airspeed = 80.0 + 80.0 * (time * 0.5).sin();
+    let airspeed = 200.0 + 200.0 * (time * 0.5).sin();
     let size = "14rem";
 
     html! {<>
@@ -16,7 +16,7 @@ fn app() -> Html {
             <AirspeedIndicator
                 {airspeed}
                 max_airspeed={airspeed + 50.0}
-                stall_airspeed={airspeed * 0.5}
+                stall_airspeed={(airspeed * 0.5).min(50.0)}
                 caution_airspeed={airspeed + 10.0}
                 never_exceed_airspeed={airspeed + 30.0}
                 {size}
