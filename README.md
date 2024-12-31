@@ -48,7 +48,7 @@ yew::html!{
 - Remove extraneous `filter:url(#filter7320)` from `fi_tc_airplane.svg`.
 - Showing a box around an indicator is not supported.
 
-## Authors
+## Acknowledgement
 
 Danny Edwards created the original [attitude-indicator](https://gitlab.com/DannyEdwards/attitude-indicator) in HTML.
 
@@ -56,22 +56,24 @@ Sébastien Matton added SVG's and adapted it into a [jQuery plugin](https://gith
 
 Corstian Boerman adapted the project by Sébastien into a [React library](https://github.com/skyhop/react-flight-indicators).
 
-Finn Bear has adapted the project by Corstian into a Yew library.
+Finn Bear has adapted the project by Corstian into a Yew library. As of version 0.2, the
+SVG's and code were re-drawn, re-written, and distributed under a new license.
 
 ## License
 
-Licensed under either of
+Code and SVG's licensed under either of:
 
  * Apache License, Version 2.0
    ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
  * MIT license
    ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
- * [CC BY 4.0](svg_src/LICENSE-CC-BY)
 
 at your option.
+
+Additionally, SVG's can be licensed under the CC BY 4.0 License ([CC BY 4.0](src/svg_src/LICENSE-CC-BY) or https://creativecommons.org/licenses/by/4.0/legalcode.en) at your option.
 
 ## Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
+dual or triple licensed as above, without any additional terms or conditions.
