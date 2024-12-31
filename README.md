@@ -15,14 +15,19 @@ Like [jQuery Flight Indicators](https://github.com/sebmatton/jQuery-Flight-Indic
 use yew_flight_indicators::component::*;
 
 yew::html!{
-    <div style="display: grid; grid-template-columns: repeat(3,1fr); width: min-content;">
+    <div
+        style="display: grid; grid-template-columns: repeat(3,1fr); gap: 0.5rem; width: min-content;"
+    >
         <AirspeedIndicator
             airspeed={80.0} // Knots.
-            max_airspeed={160.0} // Knots; default can be omitted.
+            stall_airspeed={70.0} // Knots; optional.
+            caution_airspeed={130.0} // Knots; optional.
+            never_exceed_airspeed={150.0} // Knots; optional.
+            max_airspeed={160.0} // Knots; optional.
         />
         <Altimeter
             altitude={50.0} // Feet.
-            pressure={1013.25} // mmHg; default can be omitted.
+            pressure={29.92} // inHg; optional.
         />
         <AttitudeIndicator
             pitch={50.0} // Degrees.
@@ -30,9 +35,11 @@ yew::html!{
         />
         <TurnCoordinator
             turn={30.0} // Degrees.
+            slip={20.0} // Degrees; optional.
         />
         <HeadingIndicator
             heading={200.0} // Degrees.
+            autopilot_heading={160.0} // Degrees; optional.
         />
         <Variometer
             vertical_speed={500.0} // Feet per minute.
@@ -40,13 +47,6 @@ yew::html!{
     </div>
 }
 ```
-
-## Changes
-
-- Configurable max air speed, instead of it being fixed to 160 knots.
-- SVG's are optimized in advance (see `Makefile`).
-- Remove extraneous `filter:url(#filter7320)` from `fi_tc_airplane.svg`.
-- Showing a box around an indicator is not supported.
 
 ## Acknowledgement
 
