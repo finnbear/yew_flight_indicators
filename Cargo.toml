@@ -1,6 +1,6 @@
 [package]
 name = "yew_flight_indicators"
-version = "0.2.1"
+version = "0.3.0"
 edition = "2021"
 authors = ["Finn Bear"] # see README.md for additional acknowledgements
 license = "MIT OR Apache-2.0"
@@ -9,5 +9,5 @@ description = "Flight indicators for Yew websites"
 exclude = ["/Makefile", "/svg/", "/pages/", "/.vscode/", "/.github/"]
 
 [dependencies]
-stylist = { version = "0.13.0", features = ["yew"] }
-yew = "0.21.0"
+stylist = { version = "0.15.1", features = ["yew"] }
+yew = "0.23.0"

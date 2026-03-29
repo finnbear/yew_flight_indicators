@@ -6,9 +6,9 @@ publish = false
 
 [dependencies]
 yew_flight_indicators = { path = ".." }
-yew = { version = "0.21", features = ["csr"] }
+yew = { version = "0.23", features = ["csr"] }
 web-sys = "0.3"
-yew-hooks = "0.3.3"
+yew-hooks = "0.6.1"
 
 [profile.release]
 codegen-units = 1
