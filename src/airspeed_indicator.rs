@@ -1,3 +1,4 @@
+use crate::transition;
 use stylist::css;
 use yew::{html, html_nested, AttrValue, Component, Html, Properties};
 
@@ -22,6 +23,10 @@ pub struct AirspeedIndicatorProps {
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
+    /// Seconds over which the hand moves to each new airspeed. Zero, the
+    /// default, moves it at once.
+    #[prop_or(0.0)]
+    pub transition: f32,
 }
 
 /// Indicates airspeed. The max airspeed is configurable.
@@ -173,7 +178,7 @@ pub fn airspeed_indicator(props: &AirspeedIndicatorProps) -> Html {
             <img
                 src={airspeed_indicator_hand}
                 class={box_style.clone()}
-                style={format!("transform: rotate({speed_angle}deg);")}
+                style={format!("transform: rotate({speed_angle}deg);{}", transition(props.transition, "transform"))}
                 alt=""
             />
         </div>

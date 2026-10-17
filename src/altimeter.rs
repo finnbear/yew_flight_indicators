@@ -1,3 +1,4 @@
+use crate::transition;
 use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
@@ -11,6 +12,10 @@ pub struct AltimeterProps {
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
+    /// Seconds over which the hands move to each new altitude. Zero, the
+    /// default, moves them at once.
+    #[prop_or(0.0)]
+    pub transition: f32,
 }
 
 /// Indicates altitude. The pressure calibration is configurable.
@@ -52,10 +57,14 @@ pub fn altimeter(props: &AltimeterProps) -> Html {
     let altimeter_small_hand = include_str!("./svg_part_data_uri/altimeter_small_hand.svg");
     let altimeter_large_hand = include_str!("./svg_part_data_uri/altimeter_large_hand.svg");
 
-    let needle = (props.altitude as u32 % 1000) as f32 * 360.0 / 1000.0;
+    // Whole turns past the first thousand feet, not wrapped back into it: the
+    // same on the dial, and a `transition` sweeps on past 0 rather than back
+    // round the whole face.
+    let needle = props.altitude.max(0.0) * 360.0 / 1000.0;
     let small_hand = -90.0 + props.altitude as f32 / 10000.0 * 360.0;
     let large_hand = (30.0 - props.pressure.clamp(29.5, 30.4)) * 100.0;
     let face = ((props.altitude - 10000.0).max(0.0) / 10000.0).min(1.0) * 60.0;
+    let transition = transition(props.transition, "transform");
 
     html! {
         <div
@@ -65,26 +74,26 @@ pub fn altimeter(props: &AltimeterProps) -> Html {
                 src={altimeter_pressure}
                 class={box_style.clone()}
                 alt=""
-                style={format!("transform: rotate({large_hand}deg);")}
+                style={format!("transform: rotate({large_hand}deg);{transition}")}
             />
             <img src={altimeter_outside} class={box_style.clone()} alt=""/>
             <img
                 src={altimeter_face}
                 class={box_style.clone()}
                 alt=""
-                style={format!("transform: rotate({face}deg);")}
+                style={format!("transform: rotate({face}deg);{transition}")}
             />
             <img
                 src={altimeter_small_hand}
                 class={box_style.clone()}
                 alt=""
-                style={format!("transform: rotate({small_hand}deg);")}
+                style={format!("transform: rotate({small_hand}deg);{transition}")}
             />
             <img
                 src={altimeter_large_hand}
                 class={box_style.clone()}
                 alt=""
-                style={format!("transform: rotate({needle}deg);")}
+                style={format!("transform: rotate({needle}deg);{transition}")}
             />
         </div>
     }

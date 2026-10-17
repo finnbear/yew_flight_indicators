@@ -1,3 +1,4 @@
+use crate::transition;
 use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
@@ -8,6 +9,10 @@ pub struct VariometerProps {
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
+    /// Seconds over which the hand moves to each new vertical speed. Zero,
+    /// the default, moves it at once.
+    #[prop_or(0.0)]
+    pub transition: f32,
 }
 
 /// Indicates vertical speed.
@@ -69,7 +74,7 @@ pub fn variometer(props: &VariometerProps) -> Html {
                 src={variometer_hand}
                 class={box_style.clone()}
                 alt=""
-                style={format!("transform: rotate({angle}deg);")}
+                style={format!("transform: rotate({angle}deg);{}", transition(props.transition, "transform"))}
             />
         </div>
     }

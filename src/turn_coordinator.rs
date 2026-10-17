@@ -1,3 +1,4 @@
+use crate::transition;
 use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
@@ -13,6 +14,10 @@ pub struct TurnCoordinatorProps {
     /// Width and height in any CSS unit.
     #[prop_or("16rem".into())]
     pub size: AttrValue,
+    /// Seconds over which the plane and ball move to each new reading. Zero,
+    /// the default, moves them at once.
+    #[prop_or(0.0)]
+    pub transition: f32,
 }
 
 /// Indicates the rate of change of heading and the slip/skid.
@@ -53,6 +58,7 @@ pub fn turn_coordinator(props: &TurnCoordinatorProps) -> Html {
     let turn_coordinator_plane = include_str!("./svg_part_data_uri/turn_coordinator_plane.svg");
 
     let slip = props.slip.clamp(-45.0, 45.0).to_radians().sin() * 20.0;
+    let transition = transition(props.transition, "transform");
     html! {
         <div
             style={format!("height: {}; width: {}; position: relative; display: inline-block; overflow: hidden;", props.size, props.size)}
@@ -62,13 +68,13 @@ pub fn turn_coordinator(props: &TurnCoordinatorProps) -> Html {
                 src={turn_coordinator_ball}
                 class={box_style.clone()}
                 alt=""
-                style={format!("transform: translate({}%, {}%);", slip, slip.abs() * -0.05)}
+                style={format!("transform: translate({}%, {}%);{transition}", slip, slip.abs() * -0.05)}
             />
             <img
                 src={turn_coordinator_plane}
                 class={box_style.clone()}
                 alt=""
-                style={format!("transform: rotate({}deg);", props.turn)}
+                style={format!("transform: rotate({}deg);{transition}", props.turn)}
             />
         </div>
     }

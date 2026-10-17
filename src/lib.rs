@@ -1,3 +1,29 @@
+/// The CSS `transition` for an indicator's moving part, easing each of the
+/// comma-separated `properties` over `seconds`, or nothing at all if
+/// `seconds` is not positive.
+///
+/// Linear, so a part fed a steady stream of readings moves steadily between
+/// them rather than lurching to each and settling.
+fn transition(seconds: f32, properties: &str) -> String {
+    if seconds > 0.0 {
+        let transitions = properties
+            .split(',')
+            .map(|property| format!("{} {seconds}s linear", property.trim()))
+            .collect::<Vec<_>>()
+            .join(", ");
+        format!(" transition: {transitions};")
+    } else {
+        String::new()
+    }
+}
+
+/// `angle` in degrees, moved by whole turns to within half a turn of
+/// `previous`: so that a rotation transitions the short way round, from 359°
+/// to 1° through 0° rather than back through 180°.
+fn unwrap_degrees(previous: f32, angle: f32) -> f32 {
+    previous + ((angle - previous + 180.0).rem_euclid(360.0) - 180.0)
+}
+
 mod airspeed_indicator;
 mod altimeter;
 mod attitude_indicator;
