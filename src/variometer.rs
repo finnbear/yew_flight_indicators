@@ -1,5 +1,4 @@
 use crate::transition;
-use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
@@ -38,15 +37,7 @@ impl Component for Variometer {
 
 /// Indicates vertical speed.
 pub fn variometer(props: &VariometerProps) -> Html {
-    let box_style = css!(
-        r#"
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    "#
-    );
+    let box_style = crate::box_style();
 
     let variometer_outside = include_str!("./svg_part_data_uri/variometer_outside.svg");
     let variometer_hand = include_str!("./svg_part_data_uri/variometer_hand.svg");

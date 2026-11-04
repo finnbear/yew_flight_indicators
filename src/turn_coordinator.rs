@@ -1,5 +1,4 @@
 use crate::transition;
-use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
@@ -43,15 +42,7 @@ impl Component for TurnCoordinator {
 
 /// Indicates the rate of change of heading and the slip/skid.
 pub fn turn_coordinator(props: &TurnCoordinatorProps) -> Html {
-    let box_style = css!(
-        r#"
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    "#
-    );
+    let box_style = crate::box_style();
 
     let turn_coordinator_outside = include_str!("./svg_part_data_uri/turn_coordinator_outside.svg");
     let turn_coordinator_ball = include_str!("./svg_part_data_uri/turn_coordinator_ball.svg");

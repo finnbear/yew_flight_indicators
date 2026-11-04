@@ -1,5 +1,4 @@
 use crate::transition;
-use stylist::css;
 use yew::{html, html_nested, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
@@ -52,15 +51,7 @@ impl Component for AirspeedIndicator {
 
 /// Indicates airspeed. The max airspeed is configurable.
 pub fn airspeed_indicator(props: &AirspeedIndicatorProps) -> Html {
-    let box_style = css!(
-        r#"
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    "#
-    );
+    let box_style = crate::box_style();
 
     let speed = props.airspeed;
     let max_speed = (props.max_airspeed as u32).next_multiple_of(80) as f32;

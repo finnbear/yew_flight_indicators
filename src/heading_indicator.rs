@@ -1,5 +1,4 @@
 use crate::{transition, unwrap_degrees};
-use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
@@ -58,15 +57,7 @@ impl Component for HeadingIndicator {
 /// With a `transition`, the card turns the long way round when the heading
 /// wraps; the [`HeadingIndicator`] component doesn't.
 pub fn heading_indicator(props: &HeadingIndicatorProps) -> Html {
-    let box_style = css!(
-        r#"
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    "#
-    );
+    let box_style = crate::box_style();
 
     let heading_indicator_back = include_str!("./svg_part_data_uri/heading_indicator_back.svg");
     let heading_indicator_autopilot =

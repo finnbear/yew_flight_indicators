@@ -1,5 +1,4 @@
 use crate::transition;
-use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
@@ -41,15 +40,7 @@ impl Component for Altimeter {
 
 /// Indicates altitude. The pressure calibration is configurable.
 pub fn altimeter(props: &AltimeterProps) -> Html {
-    let box_style = css!(
-        r#"
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    "#
-    );
+    let box_style = crate::box_style();
 
     let altimeter_pressure = include_str!("./svg_part_data_uri/altimeter_pressure.svg");
     let altimeter_outside = include_str!("./svg_part_data_uri/altimeter_outside.svg");
@@ -61,7 +52,7 @@ pub fn altimeter(props: &AltimeterProps) -> Html {
     // same on the dial, and a `transition` sweeps on past 0 rather than back
     // round the whole face.
     let needle = props.altitude.max(0.0) * 360.0 / 1000.0;
-    let small_hand = -90.0 + props.altitude as f32 / 10000.0 * 360.0;
+    let small_hand = -90.0 + props.altitude / 10000.0 * 360.0;
     let large_hand = (30.0 - props.pressure.clamp(29.5, 30.4)) * 100.0;
     let face = ((props.altitude - 10000.0).max(0.0) / 10000.0).min(1.0) * 60.0;
     let transition = transition(props.transition, "transform");

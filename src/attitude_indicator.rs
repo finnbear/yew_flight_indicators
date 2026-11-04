@@ -1,5 +1,4 @@
 use crate::{transition, unwrap_degrees};
-use stylist::css;
 use yew::{html, AttrValue, Component, Html, Properties};
 
 #[derive(PartialEq, Properties)]
@@ -57,15 +56,7 @@ impl Component for AttitudeIndicator {
 /// With a `transition`, the horizon rolls the long way round when the roll
 /// wraps; the [`AttitudeIndicator`] component doesn't.
 pub fn attitude_indicator(props: &AttitudeIndicatorProps) -> Html {
-    let box_style = css!(
-        r#"
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    "#
-    );
+    let box_style = crate::box_style();
 
     let altitude_indicator_outside =
         include_str!("./svg_part_data_uri/attitude_indicator_outside.svg");

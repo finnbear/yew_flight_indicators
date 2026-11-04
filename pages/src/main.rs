@@ -1,11 +1,43 @@
-use yew::{function_component, html, Html};
+use gloo_render::{request_animation_frame, AnimationFrame};
+use std::cell::RefCell;
+use std::rc::Rc;
+use yew::{function_component, hook, html, use_effect_with, use_state, Html};
 use yew_flight_indicators::component::*;
-use yew_hooks::use_raf;
+
+/// Seconds since first rendered, updated every animation frame, for up to
+/// `limit` seconds.
+#[hook]
+fn use_seconds(limit: f64) -> f32 {
+    let seconds = use_state(|| 0.0f64);
+    let setter = seconds.setter();
+    use_effect_with((), move |_| {
+        let frame: Rc<RefCell<Option<AnimationFrame>>> = Rc::default();
+        fn next(
+            frame: Rc<RefCell<Option<AnimationFrame>>>,
+            start: f64,
+            limit: f64,
+            setter: yew::UseStateSetter<f64>,
+        ) {
+            let f = frame.clone();
+            *frame.borrow_mut() = Some(request_animation_frame(move |now| {
+                let elapsed = ((now - start) / 1000.0).min(limit);
+                setter.set(elapsed);
+                if elapsed < limit {
+                    next(f, start, limit, setter);
+                }
+            }));
+        }
+        let start = web_sys::window().unwrap().performance().unwrap().now();
+        next(frame.clone(), start, limit, setter);
+        // Stops it (dropping the frame requested cancels it).
+        move || drop(frame.take())
+    });
+    *seconds as f32
+}
 
 #[function_component(App)]
 fn app() -> Html {
-    const SECONDS: u32 = 128;
-    let time = use_raf(SECONDS * 1000, 0) as f32 * SECONDS as f32;
+    let time = use_seconds(128.0);
 
     let airspeed = 200.0 + 200.0 * (time * 0.5).sin();
     let size = "14rem";

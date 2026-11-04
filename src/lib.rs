@@ -1,3 +1,43 @@
+// (Leafy's `css!` classes are `Copy`, stylist's not.)
+#![cfg_attr(feature = "leafy", allow(clippy::clone_on_copy))]
+
+// With the `leafy` feature, leafy under yew's name.
+#[cfg(feature = "leafy")]
+extern crate leafy as yew;
+#[cfg(not(any(feature = "yew", feature = "leafy")))]
+compile_error!("enable the `yew` (default) or `leafy` feature");
+
+/// The style of each layer of an indicator: filling it, the layers stacked.
+/// (One stylesheet, shared by every indicator.)
+#[cfg(feature = "leafy")]
+fn box_style() -> yew::CssClass {
+    // Written at compile time.
+    yew::css!(
+        r#"
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    "#
+    )
+}
+
+/// The style of each layer of an indicator: filling it, the layers stacked.
+/// (One stylesheet, shared by every indicator.)
+#[cfg(not(feature = "leafy"))]
+fn box_style() -> stylist::StyleSource {
+    stylist::css!(
+        r#"
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    "#
+    )
+}
+
 /// The CSS `transition` for an indicator's moving part, easing each of the
 /// comma-separated `properties` over `seconds`, or nothing at all if
 /// `seconds` is not positive.

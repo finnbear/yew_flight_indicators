@@ -5,10 +5,11 @@ edition = "2021"
 publish = false
 
 [dependencies]
-yew_flight_indicators = { path = ".." }
-yew = { version = "0.23", features = ["csr"] }
-web-sys = "0.3"
-yew-hooks = "0.6.1"
+yew_flight_indicators = { path = "..", default-features = false, features = ["leafy"] }
+# Leafy, under yew's name.
+yew = { package = "leafy", version = "0.1" }
+web-sys = { version = "0.3", features = ["Performance", "Window"] }
+gloo-render = "0.2"
 
 [profile.release]
 codegen-units = 1

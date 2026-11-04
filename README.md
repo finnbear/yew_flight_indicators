@@ -48,6 +48,15 @@ yew::html!{
 }
 ```
 
+## Leafy
+
+Supports [leafy](https://github.com/finnbear/leafy) instead of Yew (the
+default):
+
+```toml
+yew_flight_indicators = { version = "0.4", default-features = false, features = ["leafy"] }
+```
+
 ## Acknowledgement
 
 Danny Edwards created the original [attitude-indicator](https://gitlab.com/DannyEdwards/attitude-indicator) in HTML.

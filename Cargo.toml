@@ -1,13 +1,20 @@
 [package]
 name = "yew_flight_indicators"
-version = "0.3.1"
+version = "0.4.0"
 edition = "2021"
 authors = ["Finn Bear"] # see README.md for additional acknowledgements
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/finnbear/yew_flight_indicators/"
-description = "Flight indicators for Yew websites"
+description = "Flight indicators for Yew (or leafy) websites"
 exclude = ["/Makefile", "/svg/", "/pages/", "/.vscode/", "/.github/"]
 
 [dependencies]
-stylist = { version = "0.15.1", features = ["yew"] }
-yew = "0.23.0"
+stylist = { version = "0.15.1", features = ["yew"], optional = true }
+yew = { version = "0.23.0", optional = true }
+leafy = { version = "0.1", optional = true }
+
+[features]
+default = ["yew"]
+# Yew (the default), or leafy instead (with both, leafy).
+yew = ["dep:yew", "dep:stylist"]
+leafy = ["dep:leafy"]
